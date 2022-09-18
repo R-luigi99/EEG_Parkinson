@@ -5,15 +5,15 @@ Applicazione di algoritmi di Machine Learning per la diagnosi del Parkinson tram
 # RISULTATI OTTENUTI
 
 ## NewMex_OFF
-![C++ Var Types](https://raw.githubusercontent.com/R-luigi99/EEG_Parkinson/effbc70fdf8b6d53b9b494705e9a304164b30a0a/Tabelle/Screenshot%20(6).png)
-![C++ Var Types](https://raw.githubusercontent.com/R-luigi99/EEG_Parkinson/effbc70fdf8b6d53b9b494705e9a304164b30a0a/Tabelle/Screenshot%20(7).png)
-![C++ Var Types](https://raw.githubusercontent.com/R-luigi99/EEG_Parkinson/effbc70fdf8b6d53b9b494705e9a304164b30a0a/Tabelle/Screenshot%20(8).png)
+![1](https://github.com/R-luigi99/EEG_Parkinson/blob/master/Tabelle/Screenshot%20(6).png)
+![2](https://github.com/R-luigi99/EEG_Parkinson/blob/master/Tabelle/Screenshot%20(7).png)
+![3](https://github.com/R-luigi99/EEG_Parkinson/blob/master/Tabelle/Screenshot%20(8).png)
 ## NewMex_ON
-![C++ Var Types](https://raw.githubusercontent.com/R-luigi99/EEG_Parkinson/effbc70fdf8b6d53b9b494705e9a304164b30a0a/Tabelle/Screenshot%20(9).png)
-![C++ Var Types](https://raw.githubusercontent.com/R-luigi99/EEG_Parkinson/effbc70fdf8b6d53b9b494705e9a304164b30a0a/Tabelle/Screenshot%20(10).png)
-![C++ Var Types](https://raw.githubusercontent.com/R-luigi99/EEG_Parkinson/effbc70fdf8b6d53b9b494705e9a304164b30a0a/Tabelle/Screenshot%20(11).png)
+![4](https://github.com/R-luigi99/EEG_Parkinson/blob/master/Tabelle/Screenshot%20(9).png)
+![5](https://github.com/R-luigi99/EEG_Parkinson/blob/master/Tabelle/Screenshot%20(10).png)
+![6](https://github.com/R-luigi99/EEG_Parkinson/blob/master/Tabelle/Screenshot%20(11).png)
 ## NewMex_ON_OFF
-![C++ Var Types](https://raw.githubusercontent.com/R-luigi99/EEG_Parkinson/effbc70fdf8b6d53b9b494705e9a304164b30a0a/Tabelle/Screenshot%20(16).png)
-![C++ Var Types](https://raw.githubusercontent.com/R-luigi99/EEG_Parkinson/effbc70fdf8b6d53b9b494705e9a304164b30a0a/Tabelle/Screenshot%20(13).png)
-![C++ Var Types](https://raw.githubusercontent.com/R-luigi99/EEG_Parkinson/effbc70fdf8b6d53b9b494705e9a304164b30a0a/Tabelle/Screenshot%20(14).png)
-![C++ Var Types](https://raw.githubusercontent.com/R-luigi99/EEG_Parkinson/effbc70fdf8b6d53b9b494705e9a304164b30a0a/Tabelle/Screenshot%20(15).png)
+![7](https://github.com/R-luigi99/EEG_Parkinson/blob/master/Tabelle/Screenshot%20(16).png)
+![8](https://github.com/R-luigi99/EEG_Parkinson/blob/master/Tabelle/Screenshot%20(13).png)
+![9](https://github.com/R-luigi99/EEG_Parkinson/blob/master/Tabelle/Screenshot%20(14).png)
+![10](https://github.com/R-luigi99/EEG_Parkinson/blob/master/Tabelle/Screenshot%20(15).png)
