@@ -4,8 +4,8 @@ import numpy
 from pymatreader import read_mat
 
 
-NewMex_OFF= read_mat('D:\\Tesi\\Data_and_Code\\Dataset\\UNMDataset_OFF\\Organized_data\\EEG_Jim_rest_OFF_Unsegmented_WithAllChannels.mat')
-NewMex_ON= read_mat('D:\\Tesi\\Data_and_Code\\Dataset\\UNMDataset\\Organized_data\\EEG_Jim_rest_Unsegmented_WithAllChannelsEYESCLOSED.mat')
+NewMex_OFF= read_mat('EEG_Jim_rest_OFF_Unsegmented_WithAllChannels.mat')
+NewMex_ON= read_mat('EEG_Jim_rest_Unsegmented_WithAllChannelsEYESCLOSED.mat')
 
 
 #selezione dei canali più comuni
