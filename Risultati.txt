@@ -1,0 +1,4020 @@
+
+__________________________________________________
+NewMexOFF_media
+__________________________________________________
+
+RandomForrest 
+
+              precision    recall  f1-score   support
+
+         0.0       0.30      0.38      0.33         8
+         1.0       0.29      0.22      0.25         9
+
+    accuracy                           0.29        17
+   macro avg       0.29      0.30      0.29        17
+weighted avg       0.29      0.29      0.29        17
+
+RandomForrest Confusion Matrix: 
+ [[3 7]
+ [5 2]]
+
+Accuracy score:  0.294  Precision 0.299  Recall 0.293  FScore 0.292
+
+ RandomForrest K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.65
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.475
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.65
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.533
+
+
+
+
+ExtraTrees 
+
+              precision    recall  f1-score   support
+
+         0.0       0.30      0.38      0.33         8
+         1.0       0.29      0.22      0.25         9
+
+    accuracy                           0.29        17
+   macro avg       0.29      0.30      0.29        17
+weighted avg       0.29      0.29      0.29        17
+
+ExtraTrees Confusion Matrix: 
+ [[3 7]
+ [5 2]]
+
+Accuracy score:  0.294  Precision 0.299  Recall 0.293  FScore 0.292
+
+ ExtraTrees K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 1.  0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.7
+Score Precision:  [0.25 0.25 0.25 0.25 1.   0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.55
+Score Recall:  [0.5 0.5 0.5 0.5 1.  0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.7
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 1.         0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.6
+
+
+
+
+MLPClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.56      0.69        16
+         1.0       0.00      0.00      0.00         1
+
+    accuracy                           0.53        17
+   macro avg       0.45      0.28      0.35        17
+weighted avg       0.85      0.53      0.65        17
+
+MLPClassifier Confusion Matrix: 
+ [[9 1]
+ [7 0]]
+
+Accuracy score:  0.529  Precision 0.281  Recall 0.45  FScore 0.346
+
+ MLPClassifier K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.  0.  1. ]
+Mean Accuracy:  0.45
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.   0.   1.  ]
+Mean Precision:  0.275
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.  0.  1. ]
+Mean Recall:  0.45
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 0.         0.         1.        ]
+Mean FScore:  0.333
+
+
+
+
+XGBClassifier 
+
+              precision    recall  f1-score   support
+
+           0       0.60      0.60      0.60        10
+           1       0.43      0.43      0.43         7
+
+    accuracy                           0.53        17
+   macro avg       0.51      0.51      0.51        17
+weighted avg       0.53      0.53      0.53        17
+
+XGBClassifier Confusion Matrix: 
+ [[6 4]
+ [4 3]]
+
+Accuracy score:  0.529  Precision 0.514  Recall 0.514  FScore 0.514
+
+ XGBClassifier K cross validation: 
+Score Accuracy:  [0.5 1.  0.  0.5 1.  1.  1.  1.  1.  1. ]
+Mean Accuracy:  0.8
+Score Precision:  [0.25 1.   0.   0.25 1.   1.   1.   1.   1.   1.  ]
+Mean Precision:  0.75
+Score Recall:  [0.5 1.  0.  0.5 1.  1.  1.  1.  1.  1. ]
+Mean Recall:  0.8
+Score FScore:  [0.33333333 1.         0.         0.33333333 1.         1.
+ 1.         1.         1.         1.        ]
+Mean FScore:  0.767
+
+
+
+
+DecisionTree 
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.56      0.53         9
+         1.0       0.43      0.38      0.40         8
+
+    accuracy                           0.47        17
+   macro avg       0.46      0.47      0.46        17
+weighted avg       0.47      0.47      0.47        17
+
+DecisionTree Confusion Matrix: 
+ [[5 5]
+ [4 3]]
+
+Accuracy score:  0.471  Precision 0.465  Recall 0.464  FScore 0.463
+
+ DecisionTree K cross validation: 
+Score Accuracy:  [0.5 1.  0.  0.5 1.  1.  1.  1.  1.  1. ]
+Mean Accuracy:  0.8
+Score Precision:  [0.25 1.   0.   0.25 1.   1.   1.   1.   1.   1.  ]
+Mean Precision:  0.75
+Score Recall:  [0.5 1.  0.  0.5 1.  1.  1.  1.  1.  1. ]
+Mean Recall:  0.8
+Score FScore:  [0.33333333 1.         0.         0.33333333 1.         1.
+ 1.         1.         1.         1.        ]
+Mean FScore:  0.767
+
+
+
+
+SVC 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         0
+         1.0       1.00      0.41      0.58        17
+
+    accuracy                           0.41        17
+   macro avg       0.50      0.21      0.29        17
+weighted avg       1.00      0.41      0.58        17
+
+SVC Confusion Matrix: 
+ [[ 0 10]
+ [ 0  7]]
+
+Accuracy score:  0.412  Precision 0.206  Recall 0.5  FScore 0.292
+
+ SVC K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.65
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.475
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.65
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.533
+
+
+
+
+Naive Bayes 
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.56      0.53         9
+         1.0       0.43      0.38      0.40         8
+
+    accuracy                           0.47        17
+   macro avg       0.46      0.47      0.46        17
+weighted avg       0.47      0.47      0.47        17
+
+Naive Bayes Confusion Matrix: 
+ [[5 5]
+ [4 3]]
+
+Accuracy score:  0.471  Precision 0.465  Recall 0.464  FScore 0.463
+
+ Naive Bayes K cross validation: 
+Score Accuracy:  [0.5 0.5 0.  0.  1.  1.  0.5 1.  1.  0. ]
+Mean Accuracy:  0.55
+Score Precision:  [0.25 0.25 0.   0.   1.   1.   0.25 1.   1.   0.  ]
+Mean Precision:  0.475
+Score Recall:  [0.5 0.5 0.  0.  1.  1.  0.5 1.  1.  0. ]
+Mean Recall:  0.55
+Score FScore:  [0.33333333 0.33333333 0.         0.         1.         1.
+ 0.33333333 1.         1.         0.        ]
+Mean FScore:  0.5
+
+
+
+
+K-Nearest Neighbor 
+
+              precision    recall  f1-score   support
+
+         0.0       0.20      0.50      0.29         4
+         1.0       0.71      0.38      0.50        13
+
+    accuracy                           0.41        17
+   macro avg       0.46      0.44      0.39        17
+weighted avg       0.59      0.41      0.45        17
+
+K-Nearest Neighbor Confusion Matrix: 
+ [[2 8]
+ [2 5]]
+
+Accuracy score:  0.412  Precision 0.442  Recall 0.457  FScore 0.393
+
+ K-Nearest Neighbor K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 1.  0.5 1.  0.  1.  0. ]
+Mean Accuracy:  0.55
+Score Precision:  [0.25 0.25 0.25 0.25 1.   0.25 1.   0.   1.   0.  ]
+Mean Precision:  0.425
+Score Recall:  [0.5 0.5 0.5 0.5 1.  0.5 1.  0.  1.  0. ]
+Mean Recall:  0.55
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 1.         0.33333333
+ 1.         0.         1.         0.        ]
+Mean FScore:  0.467
+
+
+
+
+CatBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.40      0.57      0.47         7
+         1.0       0.57      0.40      0.47        10
+
+    accuracy                           0.47        17
+   macro avg       0.49      0.49      0.47        17
+weighted avg       0.50      0.47      0.47        17
+
+CatBoostClassifier Confusion Matrix: 
+ [[4 6]
+ [3 4]]
+
+Accuracy score:  0.471  Precision 0.486  Recall 0.486  FScore 0.471
+
+ CatBoostClassifier K cross validation: 
+Score Accuracy:  [0.5 1.  0.5 0.5 1.  1.  0.5 1.  1.  1. ]
+Mean Accuracy:  0.8
+Score Precision:  [0.25 1.   0.25 0.25 1.   1.   0.25 1.   1.   1.  ]
+Mean Precision:  0.7
+Score Recall:  [0.5 1.  0.5 0.5 1.  1.  0.5 1.  1.  1. ]
+Mean Recall:  0.8
+Score FScore:  [0.33333333 1.         0.33333333 0.33333333 1.         1.
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.733
+
+
+
+
+QDA 
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.50      0.50        10
+         1.0       0.29      0.29      0.29         7
+
+    accuracy                           0.41        17
+   macro avg       0.39      0.39      0.39        17
+weighted avg       0.41      0.41      0.41        17
+
+QDA Confusion Matrix: 
+ [[5 5]
+ [5 2]]
+
+Accuracy score:  0.412  Precision 0.393  Recall 0.393  FScore 0.393
+
+ QDA K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 1.  0.5 0.5 0.  0.  0. ]
+Mean Accuracy:  0.4
+Score Precision:  [0.25 0.25 0.25 0.25 1.   0.25 0.25 0.   0.   0.  ]
+Mean Precision:  0.25
+Score Recall:  [0.5 0.5 0.5 0.5 1.  0.5 0.5 0.  0.  0. ]
+Mean Recall:  0.4
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 1.         0.33333333
+ 0.33333333 0.         0.         0.        ]
+Mean FScore:  0.3
+
+
+
+
+AdaBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.30      0.60      0.40         5
+         1.0       0.71      0.42      0.53        12
+
+    accuracy                           0.47        17
+   macro avg       0.51      0.51      0.46        17
+weighted avg       0.59      0.47      0.49        17
+
+AdaBoostClassifier Confusion Matrix: 
+ [[3 7]
+ [2 5]]
+
+Accuracy score:  0.471  Precision 0.508  Recall 0.507  FScore 0.463
+
+ AdaBoostClassifier K cross validation: 
+Score Accuracy:  [0.5 1.  0.  0.5 1.  0.5 1.  1.  1.  1. ]
+Mean Accuracy:  0.75
+Score Precision:  [0.25 1.   0.   0.25 1.   0.25 1.   1.   1.   1.  ]
+Mean Precision:  0.675
+Score Recall:  [0.5 1.  0.  0.5 1.  0.5 1.  1.  1.  1. ]
+Mean Recall:  0.75
+Score FScore:  [0.33333333 1.         0.         0.33333333 1.         0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.633
+
+
+
+
+GradientBoostingClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.20      0.67      0.31         3
+         1.0       0.86      0.43      0.57        14
+
+    accuracy                           0.47        17
+   macro avg       0.53      0.55      0.44        17
+weighted avg       0.74      0.47      0.52        17
+
+GradientBoostingClassifier Confusion Matrix: 
+ [[2 8]
+ [1 6]]
+
+Accuracy score:  0.471  Precision 0.548  Recall 0.529  FScore 0.44
+
+ GradientBoostingClassifier K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 1.  1.  0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.75
+Score Precision:  [0.25 0.25 0.25 1.   1.   0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.625
+Score Recall:  [0.5 0.5 0.5 1.  1.  0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.75
+Score FScore:  [0.33333333 0.33333333 0.33333333 1.         1.         0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.667
+
+
+
+                    Classifier  Accuracy  Precision  Recall  FScore  \
+0                RandomForrest    0.2941      0.299   0.293   0.292   
+1                   ExtraTrees    0.2941      0.299   0.293   0.292   
+2                MLPClassifier    0.5294      0.281   0.450   0.346   
+3                XGBClassifier    0.5294      0.514   0.514   0.514   
+4                 DecisionTree    0.4706      0.465   0.464   0.463   
+5                          SVC    0.4118      0.206   0.500   0.292   
+6                  Naive Bayes    0.4706      0.465   0.464   0.463   
+7           K-Nearest Neighbor    0.4118      0.442   0.457   0.393   
+8           CatBoostClassifier    0.4706      0.486   0.486   0.471   
+9                          QDA    0.4118      0.393   0.393   0.393   
+10          AdaBoostClassifier    0.4706      0.508   0.507   0.463   
+11  GradientBoostingClassifier    0.4706      0.548   0.529   0.440   
+
+    K-Cross Validation best result Accuracy  \
+0                                       1.0   
+1                                       1.0   
+2                                       1.0   
+3                                       1.0   
+4                                       1.0   
+5                                       1.0   
+6                                       1.0   
+7                                       1.0   
+8                                       1.0   
+9                                       1.0   
+10                                      1.0   
+11                                      1.0   
+
+    K-Cross Validation best result Precision  \
+0                                        1.0   
+1                                        1.0   
+2                                        1.0   
+3                                        1.0   
+4                                        1.0   
+5                                        1.0   
+6                                        1.0   
+7                                        1.0   
+8                                        1.0   
+9                                        1.0   
+10                                       1.0   
+11                                       1.0   
+
+    K-Cross Validation best result Recall  \
+0                                     1.0   
+1                                     1.0   
+2                                     1.0   
+3                                     1.0   
+4                                     1.0   
+5                                     1.0   
+6                                     1.0   
+7                                     1.0   
+8                                     1.0   
+9                                     1.0   
+10                                    1.0   
+11                                    1.0   
+
+    K-Cross Validation best result FScore  
+0                                     1.0  
+1                                     1.0  
+2                                     1.0  
+3                                     1.0  
+4                                     1.0  
+5                                     1.0  
+6                                     1.0  
+7                                     1.0  
+8                                     1.0  
+9                                     1.0  
+10                                    1.0  
+11                                    1.0  
+###########################################################################
+__________________________________________________
+NewMexOFF_varianza
+__________________________________________________
+
+RandomForrest 
+
+              precision    recall  f1-score   support
+
+         0.0       0.10      0.33      0.15         3
+         1.0       0.71      0.36      0.48        14
+
+    accuracy                           0.35        17
+   macro avg       0.41      0.35      0.32        17
+weighted avg       0.61      0.35      0.42        17
+
+RandomForrest Confusion Matrix: 
+ [[1 9]
+ [2 5]]
+
+Accuracy score:  0.353  Precision 0.345  Recall 0.407  FScore 0.315
+
+ RandomForrest K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.  0.5 1.  1.  0. ]
+Mean Accuracy:  0.5
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.   0.25 1.   1.   0.  ]
+Mean Precision:  0.35
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.  0.5 1.  1.  0. ]
+Mean Recall:  0.5
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.
+ 0.33333333 1.         1.         0.        ]
+Mean FScore:  0.4
+
+
+
+
+ExtraTrees 
+
+              precision    recall  f1-score   support
+
+         0.0       0.10      0.17      0.12         6
+         1.0       0.29      0.18      0.22        11
+
+    accuracy                           0.18        17
+   macro avg       0.19      0.17      0.17        17
+weighted avg       0.22      0.18      0.19        17
+
+ExtraTrees Confusion Matrix: 
+ [[1 9]
+ [5 2]]
+
+Accuracy score:  0.176  Precision 0.174  Recall 0.193  FScore 0.174
+
+ ExtraTrees K cross validation: 
+Score Accuracy:  [0.5 0.  0.5 0.5 0.5 0.  0.5 1.  1.  1. ]
+Mean Accuracy:  0.55
+Score Precision:  [0.25 0.   0.25 0.25 0.25 0.   0.25 1.   1.   1.  ]
+Mean Precision:  0.425
+Score Recall:  [0.5 0.  0.5 0.5 0.5 0.  0.5 1.  1.  1. ]
+Mean Recall:  0.55
+Score FScore:  [0.33333333 0.         0.33333333 0.33333333 0.33333333 0.
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.467
+
+
+
+
+MLPClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       1.00      0.59      0.74        17
+         1.0       0.00      0.00      0.00         0
+
+    accuracy                           0.59        17
+   macro avg       0.50      0.29      0.37        17
+weighted avg       1.00      0.59      0.74        17
+
+MLPClassifier Confusion Matrix: 
+ [[10  0]
+ [ 7  0]]
+
+Accuracy score:  0.588  Precision 0.294  Recall 0.5  FScore 0.37
+
+ MLPClassifier K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.65
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.475
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.65
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.533
+
+
+
+
+XGBClassifier 
+
+              precision    recall  f1-score   support
+
+           0       0.50      0.62      0.56         8
+           1       0.57      0.44      0.50         9
+
+    accuracy                           0.53        17
+   macro avg       0.54      0.53      0.53        17
+weighted avg       0.54      0.53      0.53        17
+
+XGBClassifier Confusion Matrix: 
+ [[5 5]
+ [3 4]]
+
+Accuracy score:  0.529  Precision 0.535  Recall 0.536  FScore 0.528
+
+ XGBClassifier K cross validation: 
+Score Accuracy:  [0.5 1.  0.5 1.  0.  1.  0.5 1.  1.  0. ]
+Mean Accuracy:  0.65
+Score Precision:  [0.25 1.   0.25 1.   0.   1.   0.25 1.   1.   0.  ]
+Mean Precision:  0.575
+Score Recall:  [0.5 1.  0.5 1.  0.  1.  0.5 1.  1.  0. ]
+Mean Recall:  0.65
+Score FScore:  [0.33333333 1.         0.33333333 1.         0.         1.
+ 0.33333333 1.         1.         0.        ]
+Mean FScore:  0.6
+
+
+
+
+DecisionTree 
+
+              precision    recall  f1-score   support
+
+         0.0       0.40      0.67      0.50         6
+         1.0       0.71      0.45      0.56        11
+
+    accuracy                           0.53        17
+   macro avg       0.56      0.56      0.53        17
+weighted avg       0.60      0.53      0.54        17
+
+DecisionTree Confusion Matrix: 
+ [[4 6]
+ [2 5]]
+
+Accuracy score:  0.529  Precision 0.561  Recall 0.557  FScore 0.528
+
+ DecisionTree K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 1.  0.  1.  0.5 1.  1.  0. ]
+Mean Accuracy:  0.6
+Score Precision:  [0.25 0.25 0.25 1.   0.25 1.   0.25 1.   1.   0.  ]
+Mean Precision:  0.525
+Score Recall:  [0.5 0.5 0.5 1.  0.  0.5 0.5 0.  1.  0. ]
+Mean Recall:  0.45
+Score FScore:  [0.33333333 1.         0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 1.         1.         0.        ]
+Mean FScore:  0.5
+
+
+
+
+SVC 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         0
+         1.0       1.00      0.41      0.58        17
+
+    accuracy                           0.41        17
+   macro avg       0.50      0.21      0.29        17
+weighted avg       1.00      0.41      0.58        17
+
+SVC Confusion Matrix: 
+ [[ 0 10]
+ [ 0  7]]
+
+Accuracy score:  0.412  Precision 0.206  Recall 0.5  FScore 0.292
+
+ SVC K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.65
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.475
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.65
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.533
+
+
+
+
+Naive Bayes 
+
+              precision    recall  f1-score   support
+
+         0.0       0.30      0.43      0.35         7
+         1.0       0.43      0.30      0.35        10
+
+    accuracy                           0.35        17
+   macro avg       0.36      0.36      0.35        17
+weighted avg       0.38      0.35      0.35        17
+
+Naive Bayes Confusion Matrix: 
+ [[3 7]
+ [4 3]]
+
+Accuracy score:  0.353  Precision 0.364  Recall 0.364  FScore 0.353
+
+ Naive Bayes K cross validation: 
+Score Accuracy:  [1.  0.5 0.5 1.  0.5 0.  1.  0.  0.  1. ]
+Mean Accuracy:  0.55
+Score Precision:  [1.   0.25 0.25 1.   0.25 0.   1.   0.   0.   1.  ]
+Mean Precision:  0.475
+Score Recall:  [1.  0.5 0.5 1.  0.5 0.  1.  0.  0.  1. ]
+Mean Recall:  0.55
+Score FScore:  [1.         0.33333333 0.33333333 1.         0.33333333 0.
+ 1.         0.         0.         1.        ]
+Mean FScore:  0.5
+
+
+
+
+K-Nearest Neighbor 
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.71      0.59         7
+         1.0       0.71      0.50      0.59        10
+
+    accuracy                           0.59        17
+   macro avg       0.61      0.61      0.59        17
+weighted avg       0.63      0.59      0.59        17
+
+K-Nearest Neighbor Confusion Matrix: 
+ [[5 5]
+ [2 5]]
+
+Accuracy score:  0.588  Precision 0.607  Recall 0.607  FScore 0.588
+
+ K-Nearest Neighbor K cross validation: 
+Score Accuracy:  [1.  0.5 0.5 0.5 0.  0.5 0.5 0.  0.  1. ]
+Mean Accuracy:  0.45
+Score Precision:  [1.   0.25 0.25 0.25 0.   0.25 0.25 0.   0.   1.  ]
+Mean Precision:  0.325
+Score Recall:  [1.  0.5 0.5 0.5 0.  0.5 0.5 0.  0.  1. ]
+Mean Recall:  0.45
+Score FScore:  [1.         0.33333333 0.33333333 0.33333333 0.         0.33333333
+ 0.33333333 0.         0.         1.        ]
+Mean FScore:  0.367
+
+
+
+
+CatBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.20      0.40      0.27         5
+         1.0       0.57      0.33      0.42        12
+
+    accuracy                           0.35        17
+   macro avg       0.39      0.37      0.34        17
+weighted avg       0.46      0.35      0.38        17
+
+CatBoostClassifier Confusion Matrix: 
+ [[2 8]
+ [3 4]]
+
+Accuracy score:  0.353  Precision 0.367  Recall 0.386  FScore 0.344
+
+ CatBoostClassifier K cross validation: 
+Score Accuracy:  [0.5 1.  0.5 0.5 0.5 0.  1.  1.  1.  0. ]
+Mean Accuracy:  0.6
+Score Precision:  [0.25 1.   0.25 0.25 0.25 0.   1.   1.   1.   0.  ]
+Mean Precision:  0.5
+Score Recall:  [0.5 1.  0.5 0.5 0.5 0.  1.  1.  1.  0. ]
+Mean Recall:  0.6
+Score FScore:  [0.33333333 1.         0.33333333 0.33333333 0.33333333 0.
+ 1.         1.         1.         0.        ]
+Mean FScore:  0.533
+
+
+
+
+QDA 
+
+              precision    recall  f1-score   support
+
+         0.0       1.00      0.59      0.74        17
+         1.0       0.00      0.00      0.00         0
+
+    accuracy                           0.59        17
+   macro avg       0.50      0.29      0.37        17
+weighted avg       1.00      0.59      0.74        17
+
+QDA Confusion Matrix: 
+ [[10  0]
+ [ 7  0]]
+
+Accuracy score:  0.588  Precision 0.294  Recall 0.5  FScore 0.37
+
+ QDA K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.  1.  1.  0.  1. ]
+Mean Accuracy:  0.55
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.   1.   1.   0.   1.  ]
+Mean Precision:  0.425
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.  1.  1.  0.  1. ]
+Mean Recall:  0.55
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.
+ 1.         1.         0.         1.        ]
+Mean FScore:  0.467
+
+
+
+
+AdaBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.20      0.40      0.27         5
+         1.0       0.57      0.33      0.42        12
+
+    accuracy                           0.35        17
+   macro avg       0.39      0.37      0.34        17
+weighted avg       0.46      0.35      0.38        17
+
+AdaBoostClassifier Confusion Matrix: 
+ [[2 8]
+ [3 4]]
+
+Accuracy score:  0.353  Precision 0.367  Recall 0.386  FScore 0.344
+
+ AdaBoostClassifier K cross validation: 
+Score Accuracy:  [0.5 1.  0.5 1.  0.  0.  1.  1.  1.  0. ]
+Mean Accuracy:  0.6
+Score Precision:  [0.25 1.   0.25 1.   0.   0.   1.   1.   1.   0.  ]
+Mean Precision:  0.55
+Score Recall:  [0.5 1.  0.5 1.  0.  0.5 1.  1.  1.  0. ]
+Mean Recall:  0.65
+Score FScore:  [0.33333333 1.         0.33333333 1.         0.         0.33333333
+ 0.33333333 1.         1.         0.        ]
+Mean FScore:  0.533
+
+
+
+
+GradientBoostingClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.30      0.60      0.40         5
+         1.0       0.71      0.42      0.53        12
+
+    accuracy                           0.47        17
+   macro avg       0.51      0.51      0.46        17
+weighted avg       0.59      0.47      0.49        17
+
+GradientBoostingClassifier Confusion Matrix: 
+ [[3 7]
+ [2 5]]
+
+Accuracy score:  0.471  Precision 0.508  Recall 0.507  FScore 0.463
+
+ GradientBoostingClassifier K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  0. ]
+Mean Accuracy:  0.55
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.25 0.25 1.   1.   0.  ]
+Mean Precision:  0.375
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  0. ]
+Mean Recall:  0.55
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 1.         1.         0.        ]
+Mean FScore:  0.433
+
+
+
+                    Classifier  Accuracy  Precision  Recall  FScore  \
+0                RandomForrest    0.3529      0.345   0.407   0.315   
+1                   ExtraTrees    0.1765      0.174   0.193   0.174   
+2                MLPClassifier    0.5882      0.294   0.500   0.370   
+3                XGBClassifier    0.5294      0.535   0.536   0.528   
+4                 DecisionTree    0.5294      0.561   0.557   0.528   
+5                          SVC    0.4118      0.206   0.500   0.292   
+6                  Naive Bayes    0.3529      0.364   0.364   0.353   
+7           K-Nearest Neighbor    0.5882      0.607   0.607   0.588   
+8           CatBoostClassifier    0.3529      0.367   0.386   0.344   
+9                          QDA    0.5882      0.294   0.500   0.370   
+10          AdaBoostClassifier    0.3529      0.367   0.386   0.344   
+11  GradientBoostingClassifier    0.4706      0.508   0.507   0.463   
+
+    K-Cross Validation best result Accuracy  \
+0                                       1.0   
+1                                       1.0   
+2                                       1.0   
+3                                       1.0   
+4                                       1.0   
+5                                       1.0   
+6                                       1.0   
+7                                       1.0   
+8                                       1.0   
+9                                       1.0   
+10                                      1.0   
+11                                      1.0   
+
+    K-Cross Validation best result Precision  \
+0                                        1.0   
+1                                        1.0   
+2                                        1.0   
+3                                        1.0   
+4                                        1.0   
+5                                        1.0   
+6                                        1.0   
+7                                        1.0   
+8                                        1.0   
+9                                        1.0   
+10                                       1.0   
+11                                       1.0   
+
+    K-Cross Validation best result Recall  \
+0                                     1.0   
+1                                     1.0   
+2                                     1.0   
+3                                     1.0   
+4                                     1.0   
+5                                     1.0   
+6                                     1.0   
+7                                     1.0   
+8                                     1.0   
+9                                     1.0   
+10                                    1.0   
+11                                    1.0   
+
+    K-Cross Validation best result FScore  
+0                                     1.0  
+1                                     1.0  
+2                                     1.0  
+3                                     1.0  
+4                                     1.0  
+5                                     1.0  
+6                                     1.0  
+7                                     1.0  
+8                                     1.0  
+9                                     1.0  
+10                                    1.0  
+11                                    1.0  
+###########################################################################
+__________________________________________________
+NewMexOFF_max_min
+__________________________________________________
+
+RandomForrest 
+
+              precision    recall  f1-score   support
+
+         0.0       0.30      0.50      0.37         6
+         1.0       0.57      0.36      0.44        11
+
+    accuracy                           0.41        17
+   macro avg       0.44      0.43      0.41        17
+weighted avg       0.48      0.41      0.42        17
+
+RandomForrest Confusion Matrix: 
+ [[3 7]
+ [3 4]]
+
+Accuracy score:  0.412  Precision 0.432  Recall 0.436  FScore 0.41
+
+ RandomForrest K cross validation: 
+Score Accuracy:  [0.  0.5 0.5 1.  0.5 1.  0.5 1.  1.  1. ]
+Mean Accuracy:  0.7
+Score Precision:  [0.   0.25 0.25 1.   0.25 1.   0.25 1.   1.   1.  ]
+Mean Precision:  0.6
+Score Recall:  [0.  0.5 0.5 1.  0.5 1.  0.5 1.  1.  1. ]
+Mean Recall:  0.7
+Score FScore:  [0.         0.33333333 0.33333333 1.         0.33333333 1.
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.633
+
+
+
+
+ExtraTrees 
+
+              precision    recall  f1-score   support
+
+         0.0       0.40      0.44      0.42         9
+         1.0       0.29      0.25      0.27         8
+
+    accuracy                           0.35        17
+   macro avg       0.34      0.35      0.34        17
+weighted avg       0.35      0.35      0.35        17
+
+ExtraTrees Confusion Matrix: 
+ [[4 6]
+ [5 2]]
+
+Accuracy score:  0.353  Precision 0.347  Recall 0.343  FScore 0.344
+
+ ExtraTrees K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 1.  1.  0.5 1.  1.  1. ]
+Mean Accuracy:  0.75
+Score Precision:  [0.25 0.25 0.25 0.25 1.   1.   0.25 1.   1.   1.  ]
+Mean Precision:  0.625
+Score Recall:  [0.5 0.5 0.5 0.5 1.  1.  0.5 1.  1.  1. ]
+Mean Recall:  0.75
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 1.         1.
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.667
+
+
+
+
+MLPClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.80      0.67      0.73        12
+         1.0       0.43      0.60      0.50         5
+
+    accuracy                           0.65        17
+   macro avg       0.61      0.63      0.61        17
+weighted avg       0.69      0.65      0.66        17
+
+MLPClassifier Confusion Matrix: 
+ [[8 2]
+ [4 3]]
+
+Accuracy score:  0.647  Precision 0.633  Recall 0.614  FScore 0.614
+
+ MLPClassifier K cross validation: 
+Score Accuracy:  [0.  0.  1.  1.  0.5 0.5 1.  1.  0.  0. ]
+Mean Accuracy:  0.5
+Score Precision:  [0.   0.   1.   1.   0.25 0.25 1.   1.   0.   0.  ]
+Mean Precision:  0.45
+Score Recall:  [0.  0.  1.  1.  0.5 0.5 1.  1.  0.  0. ]
+Mean Recall:  0.5
+Score FScore:  [0.         0.         1.         1.         0.33333333 0.33333333
+ 1.         1.         0.         0.        ]
+Mean FScore:  0.467
+
+
+
+
+XGBClassifier 
+
+              precision    recall  f1-score   support
+
+           0       0.60      0.60      0.60        10
+           1       0.43      0.43      0.43         7
+
+    accuracy                           0.53        17
+   macro avg       0.51      0.51      0.51        17
+weighted avg       0.53      0.53      0.53        17
+
+XGBClassifier Confusion Matrix: 
+ [[6 4]
+ [4 3]]
+
+Accuracy score:  0.529  Precision 0.514  Recall 0.514  FScore 0.514
+
+ XGBClassifier K cross validation: 
+Score Accuracy:  [0.5 1.  0.  0.5 1.  1.  1.  1.  1.  1. ]
+Mean Accuracy:  0.8
+Score Precision:  [0.25 1.   0.   0.25 1.   1.   1.   1.   1.   1.  ]
+Mean Precision:  0.75
+Score Recall:  [0.5 1.  0.  0.5 1.  1.  1.  1.  1.  1. ]
+Mean Recall:  0.8
+Score FScore:  [0.33333333 1.         0.         0.33333333 1.         1.
+ 1.         1.         1.         1.        ]
+Mean FScore:  0.767
+
+
+
+
+DecisionTree 
+
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.55      0.57        11
+         1.0       0.29      0.33      0.31         6
+
+    accuracy                           0.47        17
+   macro avg       0.44      0.44      0.44        17
+weighted avg       0.49      0.47      0.48        17
+
+DecisionTree Confusion Matrix: 
+ [[6 4]
+ [5 2]]
+
+Accuracy score:  0.471  Precision 0.439  Recall 0.443  FScore 0.44
+
+ DecisionTree K cross validation: 
+Score Accuracy:  [0.5 1.  0.  0.5 1.  0.5 1.  1.  1.  1. ]
+Mean Accuracy:  0.75
+Score Precision:  [0.25 1.   0.   0.25 1.   1.   1.   1.   1.   1.  ]
+Mean Precision:  0.75
+Score Recall:  [0.5 1.  0.  0.5 1.  1.  1.  1.  1.  1. ]
+Mean Recall:  0.8
+Score FScore:  [0.33333333 1.         0.         0.33333333 1.         1.
+ 1.         1.         1.         1.        ]
+Mean FScore:  0.767
+
+
+
+
+SVC 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         0
+         1.0       1.00      0.41      0.58        17
+
+    accuracy                           0.41        17
+   macro avg       0.50      0.21      0.29        17
+weighted avg       1.00      0.41      0.58        17
+
+SVC Confusion Matrix: 
+ [[ 0 10]
+ [ 0  7]]
+
+Accuracy score:  0.412  Precision 0.206  Recall 0.5  FScore 0.292
+
+ SVC K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.65
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.475
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.65
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.533
+
+
+
+
+Naive Bayes 
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.56      0.53         9
+         1.0       0.43      0.38      0.40         8
+
+    accuracy                           0.47        17
+   macro avg       0.46      0.47      0.46        17
+weighted avg       0.47      0.47      0.47        17
+
+Naive Bayes Confusion Matrix: 
+ [[5 5]
+ [4 3]]
+
+Accuracy score:  0.471  Precision 0.465  Recall 0.464  FScore 0.463
+
+ Naive Bayes K cross validation: 
+Score Accuracy:  [0.5 0.5 0.  0.  1.  1.  0.5 1.  1.  0. ]
+Mean Accuracy:  0.55
+Score Precision:  [0.25 0.25 0.   0.   1.   1.   0.25 1.   1.   0.  ]
+Mean Precision:  0.475
+Score Recall:  [0.5 0.5 0.  0.  1.  1.  0.5 1.  1.  0. ]
+Mean Recall:  0.55
+Score FScore:  [0.33333333 0.33333333 0.         0.         1.         1.
+ 0.33333333 1.         1.         0.        ]
+Mean FScore:  0.5
+
+
+
+
+K-Nearest Neighbor 
+
+              precision    recall  f1-score   support
+
+         0.0       0.10      0.33      0.15         3
+         1.0       0.71      0.36      0.48        14
+
+    accuracy                           0.35        17
+   macro avg       0.41      0.35      0.32        17
+weighted avg       0.61      0.35      0.42        17
+
+K-Nearest Neighbor Confusion Matrix: 
+ [[1 9]
+ [2 5]]
+
+Accuracy score:  0.353  Precision 0.345  Recall 0.407  FScore 0.315
+
+ K-Nearest Neighbor K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 1.  0.5 1.  0.  1.  0. ]
+Mean Accuracy:  0.55
+Score Precision:  [0.25 0.25 0.25 0.25 1.   0.25 1.   0.   1.   0.  ]
+Mean Precision:  0.425
+Score Recall:  [0.5 0.5 0.5 0.5 1.  0.5 1.  0.  1.  0. ]
+Mean Recall:  0.55
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 1.         0.33333333
+ 1.         0.         1.         0.        ]
+Mean FScore:  0.467
+
+
+
+
+CatBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.40      0.57      0.47         7
+         1.0       0.57      0.40      0.47        10
+
+    accuracy                           0.47        17
+   macro avg       0.49      0.49      0.47        17
+weighted avg       0.50      0.47      0.47        17
+
+CatBoostClassifier Confusion Matrix: 
+ [[4 6]
+ [3 4]]
+
+Accuracy score:  0.471  Precision 0.486  Recall 0.486  FScore 0.471
+
+ CatBoostClassifier K cross validation: 
+Score Accuracy:  [0.5 0.5 0.  0.5 1.  1.  0.5 1.  1.  1. ]
+Mean Accuracy:  0.7
+Score Precision:  [0.25 0.25 0.   0.25 1.   1.   0.25 1.   1.   1.  ]
+Mean Precision:  0.6
+Score Recall:  [0.5 0.5 0.  0.5 1.  1.  0.5 1.  1.  1. ]
+Mean Recall:  0.7
+Score FScore:  [0.33333333 0.33333333 0.         0.33333333 1.         1.
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.633
+
+
+
+
+QDA 
+
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.60      0.60        10
+         1.0       0.43      0.43      0.43         7
+
+    accuracy                           0.53        17
+   macro avg       0.51      0.51      0.51        17
+weighted avg       0.53      0.53      0.53        17
+
+QDA Confusion Matrix: 
+ [[6 4]
+ [4 3]]
+
+Accuracy score:  0.529  Precision 0.514  Recall 0.514  FScore 0.514
+
+ QDA K cross validation: 
+Score Accuracy:  [0.  0.5 0.  0.  0.  0.  1.  0.  0.  0. ]
+Mean Accuracy:  0.15
+Score Precision:  [0.   0.25 0.   0.   0.   0.   1.   0.   0.   0.  ]
+Mean Precision:  0.125
+Score Recall:  [0.  0.5 0.  0.  0.  0.  1.  0.  0.  0. ]
+Mean Recall:  0.15
+Score FScore:  [0.         0.33333333 0.         0.         0.         0.
+ 1.         0.         0.         0.        ]
+Mean FScore:  0.133
+
+
+
+
+AdaBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.40      0.57      0.47         7
+         1.0       0.57      0.40      0.47        10
+
+    accuracy                           0.47        17
+   macro avg       0.49      0.49      0.47        17
+weighted avg       0.50      0.47      0.47        17
+
+AdaBoostClassifier Confusion Matrix: 
+ [[4 6]
+ [3 4]]
+
+Accuracy score:  0.471  Precision 0.486  Recall 0.486  FScore 0.471
+
+ AdaBoostClassifier K cross validation: 
+Score Accuracy:  [0.5 1.  0.  0.5 1.  0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.7
+Score Precision:  [0.25 1.   0.   0.25 1.   0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.6
+Score Recall:  [0.5 1.  0.  0.5 1.  0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.7
+Score FScore:  [0.33333333 1.         0.         0.33333333 1.         0.33333333
+ 1.         1.         1.         1.        ]
+Mean FScore:  0.7
+
+
+
+
+GradientBoostingClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.30      1.00      0.46         3
+         1.0       1.00      0.50      0.67        14
+
+    accuracy                           0.59        17
+   macro avg       0.65      0.75      0.56        17
+weighted avg       0.88      0.59      0.63        17
+
+GradientBoostingClassifier Confusion Matrix: 
+ [[3 7]
+ [0 7]]
+
+Accuracy score:  0.588  Precision 0.75  Recall 0.65  FScore 0.564
+
+ GradientBoostingClassifier K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 1.  1.  0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.75
+Score Precision:  [0.25 0.25 0.25 1.   1.   0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.625
+Score Recall:  [0.5 0.5 0.5 1.  1.  0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.75
+Score FScore:  [0.33333333 0.33333333 0.33333333 1.         1.         0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.667
+
+
+
+                    Classifier  Accuracy  Precision  Recall  FScore  \
+0                RandomForrest    0.4118      0.432   0.436   0.410   
+1                   ExtraTrees    0.3529      0.347   0.343   0.344   
+2                MLPClassifier    0.6471      0.633   0.614   0.614   
+3                XGBClassifier    0.5294      0.514   0.514   0.514   
+4                 DecisionTree    0.4706      0.439   0.443   0.440   
+5                          SVC    0.4118      0.206   0.500   0.292   
+6                  Naive Bayes    0.4706      0.465   0.464   0.463   
+7           K-Nearest Neighbor    0.3529      0.345   0.407   0.315   
+8           CatBoostClassifier    0.4706      0.486   0.486   0.471   
+9                          QDA    0.5294      0.514   0.514   0.514   
+10          AdaBoostClassifier    0.4706      0.486   0.486   0.471   
+11  GradientBoostingClassifier    0.5882      0.750   0.650   0.564   
+
+    K-Cross Validation best result Accuracy  \
+0                                       1.0   
+1                                       1.0   
+2                                       1.0   
+3                                       1.0   
+4                                       1.0   
+5                                       1.0   
+6                                       1.0   
+7                                       1.0   
+8                                       1.0   
+9                                       1.0   
+10                                      1.0   
+11                                      1.0   
+
+    K-Cross Validation best result Precision  \
+0                                        1.0   
+1                                        1.0   
+2                                        1.0   
+3                                        1.0   
+4                                        1.0   
+5                                        1.0   
+6                                        1.0   
+7                                        1.0   
+8                                        1.0   
+9                                        1.0   
+10                                       1.0   
+11                                       1.0   
+
+    K-Cross Validation best result Recall  \
+0                                     1.0   
+1                                     1.0   
+2                                     1.0   
+3                                     1.0   
+4                                     1.0   
+5                                     1.0   
+6                                     1.0   
+7                                     1.0   
+8                                     1.0   
+9                                     1.0   
+10                                    1.0   
+11                                    1.0   
+
+    K-Cross Validation best result FScore  
+0                                     1.0  
+1                                     1.0  
+2                                     1.0  
+3                                     1.0  
+4                                     1.0  
+5                                     1.0  
+6                                     1.0  
+7                                     1.0  
+8                                     1.0  
+9                                     1.0  
+10                                    1.0  
+11                                    1.0  
+###########################################################################
+__________________________________________________
+NewMexON_media
+__________________________________________________
+
+RandomForrest 
+
+              precision    recall  f1-score   support
+
+         0.0       0.40      0.67      0.50         6
+         1.0       0.71      0.45      0.56        11
+
+    accuracy                           0.53        17
+   macro avg       0.56      0.56      0.53        17
+weighted avg       0.60      0.53      0.54        17
+
+RandomForrest Confusion Matrix: 
+ [[4 6]
+ [2 5]]
+
+Accuracy score:  0.529  Precision 0.561  Recall 0.557  FScore 0.528
+
+ RandomForrest K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.65
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.475
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.65
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.533
+
+
+
+
+ExtraTrees 
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.62      0.56         8
+         1.0       0.57      0.44      0.50         9
+
+    accuracy                           0.53        17
+   macro avg       0.54      0.53      0.53        17
+weighted avg       0.54      0.53      0.53        17
+
+ExtraTrees Confusion Matrix: 
+ [[5 5]
+ [3 4]]
+
+Accuracy score:  0.529  Precision 0.535  Recall 0.536  FScore 0.528
+
+ ExtraTrees K cross validation: 
+Score Accuracy:  [0.  0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.6
+Score Precision:  [0.   0.25 0.25 0.25 0.25 0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.45
+Score Recall:  [0.  0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.6
+Score FScore:  [0.         0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.5
+
+
+
+
+MLPClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.69      0.78        13
+         1.0       0.43      0.75      0.55         4
+
+    accuracy                           0.71        17
+   macro avg       0.66      0.72      0.66        17
+weighted avg       0.79      0.71      0.73        17
+
+MLPClassifier Confusion Matrix: 
+ [[9 1]
+ [4 3]]
+
+Accuracy score:  0.706  Precision 0.721  Recall 0.664  FScore 0.664
+
+ MLPClassifier K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 1.  1.  1.  0.  0.  1. ]
+Mean Accuracy:  0.6
+Score Precision:  [0.25 0.25 0.25 0.25 1.   1.   1.   0.   0.   1.  ]
+Mean Precision:  0.5
+Score Recall:  [0.5 0.5 0.5 0.5 1.  1.  1.  0.  0.  1. ]
+Mean Recall:  0.6
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 1.         1.
+ 1.         0.         0.         1.        ]
+Mean FScore:  0.533
+
+
+
+
+XGBClassifier 
+
+              precision    recall  f1-score   support
+
+           0       0.60      0.55      0.57        11
+           1       0.29      0.33      0.31         6
+
+    accuracy                           0.47        17
+   macro avg       0.44      0.44      0.44        17
+weighted avg       0.49      0.47      0.48        17
+
+XGBClassifier Confusion Matrix: 
+ [[6 4]
+ [5 2]]
+
+Accuracy score:  0.471  Precision 0.439  Recall 0.443  FScore 0.44
+
+ XGBClassifier K cross validation: 
+Score Accuracy:  [0.  0.5 0.5 0.  0.5 0.5 0.5 0.  1.  1. ]
+Mean Accuracy:  0.45
+Score Precision:  [0.   0.25 0.25 0.   0.25 0.25 0.25 0.   1.   1.  ]
+Mean Precision:  0.325
+Score Recall:  [0.  0.5 0.5 0.  0.5 0.5 0.5 0.  1.  1. ]
+Mean Recall:  0.45
+Score FScore:  [0.         0.33333333 0.33333333 0.         0.33333333 0.33333333
+ 0.33333333 0.         1.         1.        ]
+Mean FScore:  0.367
+
+
+
+
+DecisionTree 
+
+              precision    recall  f1-score   support
+
+         0.0       0.70      0.58      0.64        12
+         1.0       0.29      0.40      0.33         5
+
+    accuracy                           0.53        17
+   macro avg       0.49      0.49      0.48        17
+weighted avg       0.58      0.53      0.55        17
+
+DecisionTree Confusion Matrix: 
+ [[7 3]
+ [5 2]]
+
+Accuracy score:  0.529  Precision 0.492  Recall 0.493  FScore 0.485
+
+ DecisionTree K cross validation: 
+Score Accuracy:  [0.  0.5 1.  0.  0.5 0.5 0.5 0.  1.  1. ]
+Mean Accuracy:  0.5
+Score Precision:  [0.   0.25 1.   0.   1.   0.25 0.25 0.   1.   1.  ]
+Mean Precision:  0.475
+Score Recall:  [0.  0.5 0.5 0.  0.5 0.5 0.5 0.  1.  1. ]
+Mean Recall:  0.45
+Score FScore:  [0.         0.33333333 1.         0.         0.33333333 0.33333333
+ 0.33333333 0.         1.         1.        ]
+Mean FScore:  0.433
+
+
+
+
+SVC 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         0
+         1.0       1.00      0.41      0.58        17
+
+    accuracy                           0.41        17
+   macro avg       0.50      0.21      0.29        17
+weighted avg       1.00      0.41      0.58        17
+
+SVC Confusion Matrix: 
+ [[ 0 10]
+ [ 0  7]]
+
+Accuracy score:  0.412  Precision 0.206  Recall 0.5  FScore 0.292
+
+ SVC K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.65
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.475
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.65
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.533
+
+
+
+
+Naive Bayes 
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.62      0.56         8
+         1.0       0.57      0.44      0.50         9
+
+    accuracy                           0.53        17
+   macro avg       0.54      0.53      0.53        17
+weighted avg       0.54      0.53      0.53        17
+
+Naive Bayes Confusion Matrix: 
+ [[5 5]
+ [3 4]]
+
+Accuracy score:  0.529  Precision 0.535  Recall 0.536  FScore 0.528
+
+ Naive Bayes K cross validation: 
+Score Accuracy:  [0.  0.5 0.5 1.  1.  0.5 0.5 0.  0.  0. ]
+Mean Accuracy:  0.4
+Score Precision:  [0.   0.25 0.25 1.   1.   0.25 0.25 0.   0.   0.  ]
+Mean Precision:  0.3
+Score Recall:  [0.  0.5 0.5 1.  1.  0.5 0.5 0.  0.  0. ]
+Mean Recall:  0.4
+Score FScore:  [0.         0.33333333 0.33333333 1.         1.         0.33333333
+ 0.33333333 0.         0.         0.        ]
+Mean FScore:  0.333
+
+
+
+
+K-Nearest Neighbor 
+
+              precision    recall  f1-score   support
+
+         0.0       0.10      0.50      0.17         2
+         1.0       0.86      0.40      0.55        15
+
+    accuracy                           0.41        17
+   macro avg       0.48      0.45      0.36        17
+weighted avg       0.77      0.41      0.50        17
+
+K-Nearest Neighbor Confusion Matrix: 
+ [[1 9]
+ [1 6]]
+
+Accuracy score:  0.412  Precision 0.45  Recall 0.479  FScore 0.356
+
+ K-Nearest Neighbor K cross validation: 
+Score Accuracy:  [1.  0.5 1.  0.  1.  0.5 0.5 1.  1.  0. ]
+Mean Accuracy:  0.65
+Score Precision:  [1.   0.25 1.   0.   1.   0.25 0.25 1.   1.   0.  ]
+Mean Precision:  0.575
+Score Recall:  [1.  0.5 1.  0.  1.  0.5 0.5 1.  1.  0. ]
+Mean Recall:  0.65
+Score FScore:  [1.         0.33333333 1.         0.         1.         0.33333333
+ 0.33333333 1.         1.         0.        ]
+Mean FScore:  0.6
+
+
+
+
+CatBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.67      0.63         9
+         1.0       0.57      0.50      0.53         8
+
+    accuracy                           0.59        17
+   macro avg       0.59      0.58      0.58        17
+weighted avg       0.59      0.59      0.59        17
+
+CatBoostClassifier Confusion Matrix: 
+ [[6 4]
+ [3 4]]
+
+Accuracy score:  0.588  Precision 0.583  Recall 0.586  FScore 0.582
+
+ CatBoostClassifier K cross validation: 
+Score Accuracy:  [0.  0.5 0.5 0.  0.5 0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.55
+Score Precision:  [0.   0.25 0.25 0.   0.25 0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.425
+Score Recall:  [0.  0.5 0.5 0.  0.5 0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.55
+Score FScore:  [0.         0.33333333 0.33333333 0.         0.33333333 0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.467
+
+
+
+
+QDA 
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.62      0.56         8
+         1.0       0.57      0.44      0.50         9
+
+    accuracy                           0.53        17
+   macro avg       0.54      0.53      0.53        17
+weighted avg       0.54      0.53      0.53        17
+
+QDA Confusion Matrix: 
+ [[5 5]
+ [3 4]]
+
+Accuracy score:  0.529  Precision 0.535  Recall 0.536  FScore 0.528
+
+ QDA K cross validation: 
+Score Accuracy:  [1.  1.  0.5 0.5 1.  0.5 0.5 1.  0.  0. ]
+Mean Accuracy:  0.6
+Score Precision:  [1.   1.   0.25 0.25 1.   0.25 0.25 1.   0.   0.  ]
+Mean Precision:  0.5
+Score Recall:  [1.  1.  0.5 0.5 1.  0.5 0.5 1.  0.  0. ]
+Mean Recall:  0.6
+Score FScore:  [1.         1.         0.33333333 0.33333333 1.         0.33333333
+ 0.33333333 1.         0.         0.        ]
+Mean FScore:  0.533
+
+
+
+
+AdaBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.60      0.60        10
+         1.0       0.43      0.43      0.43         7
+
+    accuracy                           0.53        17
+   macro avg       0.51      0.51      0.51        17
+weighted avg       0.53      0.53      0.53        17
+
+AdaBoostClassifier Confusion Matrix: 
+ [[6 4]
+ [4 3]]
+
+Accuracy score:  0.529  Precision 0.514  Recall 0.514  FScore 0.514
+
+ AdaBoostClassifier K cross validation: 
+Score Accuracy:  [0.  0.  0.  0.  1.  0.  0.5 1.  0.  1. ]
+Mean Accuracy:  0.35
+Score Precision:  [0.   0.   0.   0.   0.25 0.   0.25 1.   0.   1.  ]
+Mean Precision:  0.25
+Score Recall:  [0.  0.  0.  0.  1.  0.  0.5 1.  0.  1. ]
+Mean Recall:  0.35
+Score FScore:  [0.         0.         0.33333333 0.         1.         0.
+ 0.33333333 1.         0.         1.        ]
+Mean FScore:  0.367
+
+
+
+
+GradientBoostingClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.60      0.60        10
+         1.0       0.43      0.43      0.43         7
+
+    accuracy                           0.53        17
+   macro avg       0.51      0.51      0.51        17
+weighted avg       0.53      0.53      0.53        17
+
+GradientBoostingClassifier Confusion Matrix: 
+ [[6 4]
+ [4 3]]
+
+Accuracy score:  0.529  Precision 0.514  Recall 0.514  FScore 0.514
+
+ GradientBoostingClassifier K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.65
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.475
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.65
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.533
+
+
+
+                    Classifier  Accuracy  Precision  Recall  FScore  \
+0                RandomForrest    0.5294      0.561   0.557   0.528   
+1                   ExtraTrees    0.5294      0.535   0.536   0.528   
+2                MLPClassifier    0.7059      0.721   0.664   0.664   
+3                XGBClassifier    0.4706      0.439   0.443   0.440   
+4                 DecisionTree    0.5294      0.492   0.493   0.485   
+5                          SVC    0.4118      0.206   0.500   0.292   
+6                  Naive Bayes    0.5294      0.535   0.536   0.528   
+7           K-Nearest Neighbor    0.4118      0.450   0.479   0.356   
+8           CatBoostClassifier    0.5882      0.583   0.586   0.582   
+9                          QDA    0.5294      0.535   0.536   0.528   
+10          AdaBoostClassifier    0.5294      0.514   0.514   0.514   
+11  GradientBoostingClassifier    0.5294      0.514   0.514   0.514   
+
+    K-Cross Validation best result Accuracy  \
+0                                       1.0   
+1                                       1.0   
+2                                       1.0   
+3                                       1.0   
+4                                       1.0   
+5                                       1.0   
+6                                       1.0   
+7                                       1.0   
+8                                       1.0   
+9                                       1.0   
+10                                      1.0   
+11                                      1.0   
+
+    K-Cross Validation best result Precision  \
+0                                        1.0   
+1                                        1.0   
+2                                        1.0   
+3                                        1.0   
+4                                        1.0   
+5                                        1.0   
+6                                        1.0   
+7                                        1.0   
+8                                        1.0   
+9                                        1.0   
+10                                       1.0   
+11                                       1.0   
+
+    K-Cross Validation best result Recall  \
+0                                     1.0   
+1                                     1.0   
+2                                     1.0   
+3                                     1.0   
+4                                     1.0   
+5                                     1.0   
+6                                     1.0   
+7                                     1.0   
+8                                     1.0   
+9                                     1.0   
+10                                    1.0   
+11                                    1.0   
+
+    K-Cross Validation best result FScore  
+0                                     1.0  
+1                                     1.0  
+2                                     1.0  
+3                                     1.0  
+4                                     1.0  
+5                                     1.0  
+6                                     1.0  
+7                                     1.0  
+8                                     1.0  
+9                                     1.0  
+10                                    1.0  
+11                                    1.0  
+###########################################################################
+__________________________________________________
+NewMexON_varianza
+__________________________________________________
+
+RandomForrest 
+
+              precision    recall  f1-score   support
+
+         0.0       0.20      0.50      0.29         4
+         1.0       0.71      0.38      0.50        13
+
+    accuracy                           0.41        17
+   macro avg       0.46      0.44      0.39        17
+weighted avg       0.59      0.41      0.45        17
+
+RandomForrest Confusion Matrix: 
+ [[2 8]
+ [2 5]]
+
+Accuracy score:  0.412  Precision 0.442  Recall 0.457  FScore 0.393
+
+ RandomForrest K cross validation: 
+Score Accuracy:  [0.5 0.  0.5 0.5 0.5 1.  1.  1.  1.  1. ]
+Mean Accuracy:  0.7
+Score Precision:  [0.25 0.   0.25 0.25 0.25 1.   1.   1.   1.   1.  ]
+Mean Precision:  0.6
+Score Recall:  [0.5 0.  0.5 0.5 0.5 1.  1.  1.  1.  1. ]
+Mean Recall:  0.7
+Score FScore:  [0.33333333 0.         0.33333333 0.33333333 0.33333333 1.
+ 1.         1.         1.         1.        ]
+Mean FScore:  0.633
+
+
+
+
+ExtraTrees 
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.71      0.59         7
+         1.0       0.71      0.50      0.59        10
+
+    accuracy                           0.59        17
+   macro avg       0.61      0.61      0.59        17
+weighted avg       0.63      0.59      0.59        17
+
+ExtraTrees Confusion Matrix: 
+ [[5 5]
+ [2 5]]
+
+Accuracy score:  0.588  Precision 0.607  Recall 0.607  FScore 0.588
+
+ ExtraTrees K cross validation: 
+Score Accuracy:  [0.5 0.  0.5 0.5 1.  1.  1.  1.  1.  1. ]
+Mean Accuracy:  0.75
+Score Precision:  [0.25 0.   0.25 0.25 1.   1.   1.   1.   1.   1.  ]
+Mean Precision:  0.675
+Score Recall:  [0.5 0.  0.5 0.5 1.  1.  1.  1.  1.  1. ]
+Mean Recall:  0.75
+Score FScore:  [0.33333333 0.         0.33333333 0.33333333 1.         1.
+ 1.         1.         1.         1.        ]
+Mean FScore:  0.7
+
+
+
+
+MLPClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       1.00      0.59      0.74        17
+         1.0       0.00      0.00      0.00         0
+
+    accuracy                           0.59        17
+   macro avg       0.50      0.29      0.37        17
+weighted avg       1.00      0.59      0.74        17
+
+MLPClassifier Confusion Matrix: 
+ [[10  0]
+ [ 7  0]]
+
+Accuracy score:  0.588  Precision 0.294  Recall 0.5  FScore 0.37
+
+ MLPClassifier K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.65
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.475
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.65
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.533
+
+
+
+
+XGBClassifier 
+
+              precision    recall  f1-score   support
+
+           0       0.30      0.60      0.40         5
+           1       0.71      0.42      0.53        12
+
+    accuracy                           0.47        17
+   macro avg       0.51      0.51      0.46        17
+weighted avg       0.59      0.47      0.49        17
+
+XGBClassifier Confusion Matrix: 
+ [[3 7]
+ [2 5]]
+
+Accuracy score:  0.471  Precision 0.508  Recall 0.507  FScore 0.463
+
+ XGBClassifier K cross validation: 
+Score Accuracy:  [1.  0.5 0.5 1.  0.5 1.  1.  1.  1.  1. ]
+Mean Accuracy:  0.85
+Score Precision:  [1.   0.25 0.25 1.   0.25 1.   1.   1.   1.   1.  ]
+Mean Precision:  0.775
+Score Recall:  [1.  0.5 0.5 1.  0.5 1.  1.  1.  1.  1. ]
+Mean Recall:  0.85
+Score FScore:  [1.         0.33333333 0.33333333 1.         0.33333333 1.
+ 1.         1.         1.         1.        ]
+Mean FScore:  0.8
+
+
+
+
+DecisionTree 
+
+              precision    recall  f1-score   support
+
+         0.0       0.30      0.60      0.40         5
+         1.0       0.71      0.42      0.53        12
+
+    accuracy                           0.47        17
+   macro avg       0.51      0.51      0.46        17
+weighted avg       0.59      0.47      0.49        17
+
+DecisionTree Confusion Matrix: 
+ [[3 7]
+ [2 5]]
+
+Accuracy score:  0.471  Precision 0.508  Recall 0.507  FScore 0.463
+
+ DecisionTree K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 1.  0.  0.5 1.  1.  1.  1. ]
+Mean Accuracy:  0.7
+Score Precision:  [1.   0.25 0.25 0.25 0.   0.25 1.   1.   1.   1.  ]
+Mean Precision:  0.6
+Score Recall:  [1.  0.5 0.5 1.  0.  0.5 1.  1.  1.  1. ]
+Mean Recall:  0.75
+Score FScore:  [0.33333333 0.33333333 0.33333333 1.         0.         0.33333333
+ 1.         1.         1.         1.        ]
+Mean FScore:  0.633
+
+
+
+
+SVC 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         0
+         1.0       1.00      0.41      0.58        17
+
+    accuracy                           0.41        17
+   macro avg       0.50      0.21      0.29        17
+weighted avg       1.00      0.41      0.58        17
+
+SVC Confusion Matrix: 
+ [[ 0 10]
+ [ 0  7]]
+
+Accuracy score:  0.412  Precision 0.206  Recall 0.5  FScore 0.292
+
+ SVC K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.65
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.475
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.65
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.533
+
+
+
+
+Naive Bayes 
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.56      0.53         9
+         1.0       0.43      0.38      0.40         8
+
+    accuracy                           0.47        17
+   macro avg       0.46      0.47      0.46        17
+weighted avg       0.47      0.47      0.47        17
+
+Naive Bayes Confusion Matrix: 
+ [[5 5]
+ [4 3]]
+
+Accuracy score:  0.471  Precision 0.465  Recall 0.464  FScore 0.463
+
+ Naive Bayes K cross validation: 
+Score Accuracy:  [0.5 0.  0.5 0.5 0.5 1.  0.5 1.  0.  0. ]
+Mean Accuracy:  0.45
+Score Precision:  [0.25 0.   0.25 0.25 0.25 1.   0.25 1.   0.   0.  ]
+Mean Precision:  0.325
+Score Recall:  [0.5 0.  0.5 0.5 0.5 1.  0.5 1.  0.  0. ]
+Mean Recall:  0.45
+Score FScore:  [0.33333333 0.         0.33333333 0.33333333 0.33333333 1.
+ 0.33333333 1.         0.         0.        ]
+Mean FScore:  0.367
+
+
+
+
+K-Nearest Neighbor 
+
+              precision    recall  f1-score   support
+
+         0.0       0.70      0.64      0.67        11
+         1.0       0.43      0.50      0.46         6
+
+    accuracy                           0.59        17
+   macro avg       0.56      0.57      0.56        17
+weighted avg       0.60      0.59      0.59        17
+
+K-Nearest Neighbor Confusion Matrix: 
+ [[7 3]
+ [4 3]]
+
+Accuracy score:  0.588  Precision 0.568  Recall 0.564  FScore 0.564
+
+ K-Nearest Neighbor K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.  0.5 0.  1.  1.  1. ]
+Mean Accuracy:  0.55
+Score Precision:  [0.25 0.25 0.25 0.25 0.   0.25 0.   1.   1.   1.  ]
+Mean Precision:  0.425
+Score Recall:  [0.5 0.5 0.5 0.5 0.  0.5 0.  1.  1.  1. ]
+Mean Recall:  0.55
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.         0.33333333
+ 0.         1.         1.         1.        ]
+Mean FScore:  0.467
+
+
+
+
+CatBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.30      0.50      0.37         6
+         1.0       0.57      0.36      0.44        11
+
+    accuracy                           0.41        17
+   macro avg       0.44      0.43      0.41        17
+weighted avg       0.48      0.41      0.42        17
+
+CatBoostClassifier Confusion Matrix: 
+ [[3 7]
+ [3 4]]
+
+Accuracy score:  0.412  Precision 0.432  Recall 0.436  FScore 0.41
+
+ CatBoostClassifier K cross validation: 
+Score Accuracy:  [0.5 0.  0.  0.5 0.5 1.  0.5 1.  1.  1. ]
+Mean Accuracy:  0.6
+Score Precision:  [0.25 0.   0.   0.25 0.25 1.   0.25 1.   1.   1.  ]
+Mean Precision:  0.5
+Score Recall:  [0.5 0.  0.  0.5 0.5 1.  0.5 1.  1.  1. ]
+Mean Recall:  0.6
+Score FScore:  [0.33333333 0.         0.         0.33333333 0.33333333 1.
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.533
+
+
+
+
+QDA 
+
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.60      0.72        15
+         1.0       0.14      0.50      0.22         2
+
+    accuracy                           0.59        17
+   macro avg       0.52      0.55      0.47        17
+weighted avg       0.81      0.59      0.66        17
+
+QDA Confusion Matrix: 
+ [[9 1]
+ [6 1]]
+
+Accuracy score:  0.588  Precision 0.55  Recall 0.521  FScore 0.471
+
+ QDA K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.  0.  0. ]
+Mean Accuracy:  0.35
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.   0.   0.  ]
+Mean Precision:  0.175
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.  0.  0. ]
+Mean Recall:  0.35
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 0.         0.         0.        ]
+Mean FScore:  0.233
+
+
+
+
+AdaBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.71      0.59         7
+         1.0       0.71      0.50      0.59        10
+
+    accuracy                           0.59        17
+   macro avg       0.61      0.61      0.59        17
+weighted avg       0.63      0.59      0.59        17
+
+AdaBoostClassifier Confusion Matrix: 
+ [[5 5]
+ [2 5]]
+
+Accuracy score:  0.588  Precision 0.607  Recall 0.607  FScore 0.588
+
+ AdaBoostClassifier K cross validation: 
+Score Accuracy:  [1.  0.5 0.5 1.  0.5 1.  1.  1.  1.  1. ]
+Mean Accuracy:  0.85
+Score Precision:  [1.   0.25 0.25 1.   0.25 1.   1.   1.   1.   1.  ]
+Mean Precision:  0.775
+Score Recall:  [1.  0.5 0.5 1.  0.5 1.  1.  1.  1.  1. ]
+Mean Recall:  0.85
+Score FScore:  [1.         0.33333333 0.33333333 1.         0.33333333 1.
+ 1.         1.         1.         1.        ]
+Mean FScore:  0.8
+
+
+
+
+GradientBoostingClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.20      0.67      0.31         3
+         1.0       0.86      0.43      0.57        14
+
+    accuracy                           0.47        17
+   macro avg       0.53      0.55      0.44        17
+weighted avg       0.74      0.47      0.52        17
+
+GradientBoostingClassifier Confusion Matrix: 
+ [[2 8]
+ [1 6]]
+
+Accuracy score:  0.471  Precision 0.548  Recall 0.529  FScore 0.44
+
+ GradientBoostingClassifier K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.65
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.475
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.65
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.533
+
+
+
+                    Classifier  Accuracy  Precision  Recall  FScore  \
+0                RandomForrest    0.4118      0.442   0.457   0.393   
+1                   ExtraTrees    0.5882      0.607   0.607   0.588   
+2                MLPClassifier    0.5882      0.294   0.500   0.370   
+3                XGBClassifier    0.4706      0.508   0.507   0.463   
+4                 DecisionTree    0.4706      0.508   0.507   0.463   
+5                          SVC    0.4118      0.206   0.500   0.292   
+6                  Naive Bayes    0.4706      0.465   0.464   0.463   
+7           K-Nearest Neighbor    0.5882      0.568   0.564   0.564   
+8           CatBoostClassifier    0.4118      0.432   0.436   0.410   
+9                          QDA    0.5882      0.550   0.521   0.471   
+10          AdaBoostClassifier    0.5882      0.607   0.607   0.588   
+11  GradientBoostingClassifier    0.4706      0.548   0.529   0.440   
+
+    K-Cross Validation best result Accuracy  \
+0                                       1.0   
+1                                       1.0   
+2                                       1.0   
+3                                       1.0   
+4                                       1.0   
+5                                       1.0   
+6                                       1.0   
+7                                       1.0   
+8                                       1.0   
+9                                       0.5   
+10                                      1.0   
+11                                      1.0   
+
+    K-Cross Validation best result Precision  \
+0                                       1.00   
+1                                       1.00   
+2                                       1.00   
+3                                       1.00   
+4                                       1.00   
+5                                       1.00   
+6                                       1.00   
+7                                       1.00   
+8                                       1.00   
+9                                       0.25   
+10                                      1.00   
+11                                      1.00   
+
+    K-Cross Validation best result Recall  \
+0                                     1.0   
+1                                     1.0   
+2                                     1.0   
+3                                     1.0   
+4                                     1.0   
+5                                     1.0   
+6                                     1.0   
+7                                     1.0   
+8                                     1.0   
+9                                     0.5   
+10                                    1.0   
+11                                    1.0   
+
+    K-Cross Validation best result FScore  
+0                                   1.000  
+1                                   1.000  
+2                                   1.000  
+3                                   1.000  
+4                                   1.000  
+5                                   1.000  
+6                                   1.000  
+7                                   1.000  
+8                                   1.000  
+9                                   0.333  
+10                                  1.000  
+11                                  1.000  
+###########################################################################
+__________________________________________________
+NewMexON_max_min
+__________________________________________________
+
+RandomForrest 
+
+              precision    recall  f1-score   support
+
+         0.0       0.40      0.67      0.50         6
+         1.0       0.71      0.45      0.56        11
+
+    accuracy                           0.53        17
+   macro avg       0.56      0.56      0.53        17
+weighted avg       0.60      0.53      0.54        17
+
+RandomForrest Confusion Matrix: 
+ [[4 6]
+ [2 5]]
+
+Accuracy score:  0.529  Precision 0.561  Recall 0.557  FScore 0.528
+
+ RandomForrest K cross validation: 
+Score Accuracy:  [0.  0.5 0.5 0.5 0.5 0.5 0.5 0.  1.  1. ]
+Mean Accuracy:  0.5
+Score Precision:  [0.   0.25 0.25 0.25 0.25 0.25 0.25 0.   1.   1.  ]
+Mean Precision:  0.35
+Score Recall:  [0.  0.5 0.5 0.5 0.5 0.5 0.5 0.  1.  1. ]
+Mean Recall:  0.5
+Score FScore:  [0.         0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 0.         1.         1.        ]
+Mean FScore:  0.4
+
+
+
+
+ExtraTrees 
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.62      0.56         8
+         1.0       0.57      0.44      0.50         9
+
+    accuracy                           0.53        17
+   macro avg       0.54      0.53      0.53        17
+weighted avg       0.54      0.53      0.53        17
+
+ExtraTrees Confusion Matrix: 
+ [[5 5]
+ [3 4]]
+
+Accuracy score:  0.529  Precision 0.535  Recall 0.536  FScore 0.528
+
+ ExtraTrees K cross validation: 
+Score Accuracy:  [0.  0.5 0.5 0.  1.  0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.6
+Score Precision:  [0.   0.25 0.25 0.   1.   0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.5
+Score Recall:  [0.  0.5 0.5 0.  1.  0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.6
+Score FScore:  [0.         0.33333333 0.33333333 0.         1.         0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.533
+
+
+
+
+MLPClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.20      0.40      0.27         5
+         1.0       0.57      0.33      0.42        12
+
+    accuracy                           0.35        17
+   macro avg       0.39      0.37      0.34        17
+weighted avg       0.46      0.35      0.38        17
+
+MLPClassifier Confusion Matrix: 
+ [[2 8]
+ [3 4]]
+
+Accuracy score:  0.353  Precision 0.367  Recall 0.386  FScore 0.344
+
+ MLPClassifier K cross validation: 
+Score Accuracy:  [0.  0.5 0.5 1.  0.5 1.  1.  0.  1.  1. ]
+Mean Accuracy:  0.65
+Score Precision:  [0.   0.25 0.25 1.   0.25 1.   1.   0.   1.   1.  ]
+Mean Precision:  0.575
+Score Recall:  [0.  0.5 0.5 1.  0.5 1.  1.  0.  1.  1. ]
+Mean Recall:  0.65
+Score FScore:  [0.         0.33333333 0.33333333 1.         0.33333333 1.
+ 1.         0.         1.         1.        ]
+Mean FScore:  0.6
+
+
+
+
+XGBClassifier 
+
+              precision    recall  f1-score   support
+
+           0       0.60      0.55      0.57        11
+           1       0.29      0.33      0.31         6
+
+    accuracy                           0.47        17
+   macro avg       0.44      0.44      0.44        17
+weighted avg       0.49      0.47      0.48        17
+
+XGBClassifier Confusion Matrix: 
+ [[6 4]
+ [5 2]]
+
+Accuracy score:  0.471  Precision 0.439  Recall 0.443  FScore 0.44
+
+ XGBClassifier K cross validation: 
+Score Accuracy:  [0.  0.5 1.  0.  1.  0.5 0.5 0.  1.  1. ]
+Mean Accuracy:  0.55
+Score Precision:  [0.   0.25 1.   0.   1.   0.25 0.25 0.   1.   1.  ]
+Mean Precision:  0.475
+Score Recall:  [0.  0.5 1.  0.  1.  0.5 0.5 0.  1.  1. ]
+Mean Recall:  0.55
+Score FScore:  [0.         0.33333333 1.         0.         1.         0.33333333
+ 0.33333333 0.         1.         1.        ]
+Mean FScore:  0.5
+
+
+
+
+DecisionTree 
+
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.55      0.57        11
+         1.0       0.29      0.33      0.31         6
+
+    accuracy                           0.47        17
+   macro avg       0.44      0.44      0.44        17
+weighted avg       0.49      0.47      0.48        17
+
+DecisionTree Confusion Matrix: 
+ [[6 4]
+ [5 2]]
+
+Accuracy score:  0.471  Precision 0.439  Recall 0.443  FScore 0.44
+
+ DecisionTree K cross validation: 
+Score Accuracy:  [0.  0.5 0.5 0.  1.  0.5 0.5 0.  1.  1. ]
+Mean Accuracy:  0.5
+Score Precision:  [0.   0.25 0.25 0.   1.   0.25 0.25 0.   1.   1.  ]
+Mean Precision:  0.4
+Score Recall:  [0.  1.  0.5 0.  1.  0.5 0.5 0.  1.  1. ]
+Mean Recall:  0.55
+Score FScore:  [0.         0.33333333 0.33333333 0.         1.         0.33333333
+ 0.33333333 0.         1.         1.        ]
+Mean FScore:  0.433
+
+
+
+
+SVC 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         0
+         1.0       1.00      0.41      0.58        17
+
+    accuracy                           0.41        17
+   macro avg       0.50      0.21      0.29        17
+weighted avg       1.00      0.41      0.58        17
+
+SVC Confusion Matrix: 
+ [[ 0 10]
+ [ 0  7]]
+
+Accuracy score:  0.412  Precision 0.206  Recall 0.5  FScore 0.292
+
+ SVC K cross validation: 
+Score Accuracy:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.65
+Score Precision:  [0.25 0.25 0.25 0.25 0.25 0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.475
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.65
+Score FScore:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.533
+
+
+
+
+Naive Bayes 
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.62      0.56         8
+         1.0       0.57      0.44      0.50         9
+
+    accuracy                           0.53        17
+   macro avg       0.54      0.53      0.53        17
+weighted avg       0.54      0.53      0.53        17
+
+Naive Bayes Confusion Matrix: 
+ [[5 5]
+ [3 4]]
+
+Accuracy score:  0.529  Precision 0.535  Recall 0.536  FScore 0.528
+
+ Naive Bayes K cross validation: 
+Score Accuracy:  [0.  0.5 0.5 1.  1.  0.5 0.5 0.  0.  0. ]
+Mean Accuracy:  0.4
+Score Precision:  [0.   0.25 0.25 1.   1.   0.25 0.25 0.   0.   0.  ]
+Mean Precision:  0.3
+Score Recall:  [0.  0.5 0.5 1.  1.  0.5 0.5 0.  0.  0. ]
+Mean Recall:  0.4
+Score FScore:  [0.         0.33333333 0.33333333 1.         1.         0.33333333
+ 0.33333333 0.         0.         0.        ]
+Mean FScore:  0.333
+
+
+
+
+K-Nearest Neighbor 
+
+              precision    recall  f1-score   support
+
+         0.0       0.10      0.50      0.17         2
+         1.0       0.86      0.40      0.55        15
+
+    accuracy                           0.41        17
+   macro avg       0.48      0.45      0.36        17
+weighted avg       0.77      0.41      0.50        17
+
+K-Nearest Neighbor Confusion Matrix: 
+ [[1 9]
+ [1 6]]
+
+Accuracy score:  0.412  Precision 0.45  Recall 0.479  FScore 0.356
+
+ K-Nearest Neighbor K cross validation: 
+Score Accuracy:  [1.  0.5 1.  0.  1.  0.5 0.5 1.  1.  0. ]
+Mean Accuracy:  0.65
+Score Precision:  [1.   0.25 1.   0.   1.   0.25 0.25 1.   1.   0.  ]
+Mean Precision:  0.575
+Score Recall:  [1.  0.5 1.  0.  1.  0.5 0.5 1.  1.  0. ]
+Mean Recall:  0.65
+Score FScore:  [1.         0.33333333 1.         0.         1.         0.33333333
+ 0.33333333 1.         1.         0.        ]
+Mean FScore:  0.6
+
+
+
+
+CatBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.60      0.60        10
+         1.0       0.43      0.43      0.43         7
+
+    accuracy                           0.53        17
+   macro avg       0.51      0.51      0.51        17
+weighted avg       0.53      0.53      0.53        17
+
+CatBoostClassifier Confusion Matrix: 
+ [[6 4]
+ [4 3]]
+
+Accuracy score:  0.529  Precision 0.514  Recall 0.514  FScore 0.514
+
+ CatBoostClassifier K cross validation: 
+Score Accuracy:  [0.  0.5 0.5 0.  0.5 0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.55
+Score Precision:  [0.   0.25 0.25 0.   0.25 0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.425
+Score Recall:  [0.  0.5 0.5 0.  0.5 0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.55
+Score FScore:  [0.         0.33333333 0.33333333 0.         0.33333333 0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.467
+
+
+
+
+QDA 
+
+              precision    recall  f1-score   support
+
+         0.0       0.30      0.50      0.37         6
+         1.0       0.57      0.36      0.44        11
+
+    accuracy                           0.41        17
+   macro avg       0.44      0.43      0.41        17
+weighted avg       0.48      0.41      0.42        17
+
+QDA Confusion Matrix: 
+ [[3 7]
+ [3 4]]
+
+Accuracy score:  0.412  Precision 0.432  Recall 0.436  FScore 0.41
+
+ QDA K cross validation: 
+Score Accuracy:  [0.  0.5 1.  1.  1.  0.5 0.5 0.  1.  0. ]
+Mean Accuracy:  0.55
+Score Precision:  [0.   0.25 1.   1.   1.   0.25 0.25 0.   1.   0.  ]
+Mean Precision:  0.475
+Score Recall:  [0.  0.5 1.  1.  1.  0.5 0.5 0.  1.  0. ]
+Mean Recall:  0.55
+Score FScore:  [0.         0.33333333 1.         1.         1.         0.33333333
+ 0.33333333 0.         1.         0.        ]
+Mean FScore:  0.5
+
+
+
+
+AdaBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.60      0.60        10
+         1.0       0.43      0.43      0.43         7
+
+    accuracy                           0.53        17
+   macro avg       0.51      0.51      0.51        17
+weighted avg       0.53      0.53      0.53        17
+
+AdaBoostClassifier Confusion Matrix: 
+ [[6 4]
+ [4 3]]
+
+Accuracy score:  0.529  Precision 0.514  Recall 0.514  FScore 0.514
+
+ AdaBoostClassifier K cross validation: 
+Score Accuracy:  [0.  0.5 0.5 0.  0.5 0.  0.5 1.  0.  1. ]
+Mean Accuracy:  0.4
+Score Precision:  [0.   0.25 0.25 0.   0.25 0.   0.25 1.   0.   1.  ]
+Mean Precision:  0.3
+Score Recall:  [0.  0.5 0.5 0.  0.5 0.  0.5 1.  0.  1. ]
+Mean Recall:  0.4
+Score FScore:  [0.         0.33333333 0.33333333 0.         0.33333333 0.
+ 0.33333333 1.         0.         1.        ]
+Mean FScore:  0.333
+
+
+
+
+GradientBoostingClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.60      0.60        10
+         1.0       0.43      0.43      0.43         7
+
+    accuracy                           0.53        17
+   macro avg       0.51      0.51      0.51        17
+weighted avg       0.53      0.53      0.53        17
+
+GradientBoostingClassifier Confusion Matrix: 
+ [[6 4]
+ [4 3]]
+
+Accuracy score:  0.529  Precision 0.514  Recall 0.514  FScore 0.514
+
+ GradientBoostingClassifier K cross validation: 
+Score Accuracy:  [0.  0.5 0.5 0.  0.5 0.5 0.5 1.  1.  1. ]
+Mean Accuracy:  0.55
+Score Precision:  [0.   0.25 0.25 0.   0.25 0.25 0.25 1.   1.   1.  ]
+Mean Precision:  0.425
+Score Recall:  [0.  0.5 0.5 0.  0.5 0.5 0.5 1.  1.  1. ]
+Mean Recall:  0.55
+Score FScore:  [0.         0.33333333 0.33333333 0.         0.33333333 0.33333333
+ 0.33333333 1.         1.         1.        ]
+Mean FScore:  0.467
+
+
+
+                    Classifier  Accuracy  Precision  Recall  FScore  \
+0                RandomForrest    0.5294      0.561   0.557   0.528   
+1                   ExtraTrees    0.5294      0.535   0.536   0.528   
+2                MLPClassifier    0.3529      0.367   0.386   0.344   
+3                XGBClassifier    0.4706      0.439   0.443   0.440   
+4                 DecisionTree    0.4706      0.439   0.443   0.440   
+5                          SVC    0.4118      0.206   0.500   0.292   
+6                  Naive Bayes    0.5294      0.535   0.536   0.528   
+7           K-Nearest Neighbor    0.4118      0.450   0.479   0.356   
+8           CatBoostClassifier    0.5294      0.514   0.514   0.514   
+9                          QDA    0.4118      0.432   0.436   0.410   
+10          AdaBoostClassifier    0.5294      0.514   0.514   0.514   
+11  GradientBoostingClassifier    0.5294      0.514   0.514   0.514   
+
+    K-Cross Validation best result Accuracy  \
+0                                       1.0   
+1                                       1.0   
+2                                       1.0   
+3                                       1.0   
+4                                       1.0   
+5                                       1.0   
+6                                       1.0   
+7                                       1.0   
+8                                       1.0   
+9                                       1.0   
+10                                      1.0   
+11                                      1.0   
+
+    K-Cross Validation best result Precision  \
+0                                        1.0   
+1                                        1.0   
+2                                        1.0   
+3                                        1.0   
+4                                        1.0   
+5                                        1.0   
+6                                        1.0   
+7                                        1.0   
+8                                        1.0   
+9                                        1.0   
+10                                       1.0   
+11                                       1.0   
+
+    K-Cross Validation best result Recall  \
+0                                     1.0   
+1                                     1.0   
+2                                     1.0   
+3                                     1.0   
+4                                     1.0   
+5                                     1.0   
+6                                     1.0   
+7                                     1.0   
+8                                     1.0   
+9                                     1.0   
+10                                    1.0   
+11                                    1.0   
+
+    K-Cross Validation best result FScore  
+0                                     1.0  
+1                                     1.0  
+2                                     1.0  
+3                                     1.0  
+4                                     1.0  
+5                                     1.0  
+6                                     1.0  
+7                                     1.0  
+8                                     1.0  
+9                                     1.0  
+10                                    1.0  
+11                                    1.0  
+###########################################################################
+__________________________________________________
+ NewMexON_OFF_media
+__________________________________________________
+
+RandomForrest 
+
+              precision    recall  f1-score   support
+
+         0.0       0.10      0.50      0.17         2
+         1.0       0.93      0.61      0.74        23
+
+    accuracy                           0.60        25
+   macro avg       0.52      0.55      0.45        25
+weighted avg       0.87      0.60      0.69        25
+
+RandomForrest Confusion Matrix: 
+ [[ 1  9]
+ [ 1 14]]
+
+Accuracy score:  0.6  Precision 0.554  Recall 0.517  FScore 0.452
+
+ RandomForrest K cross validation: 
+Score Accuracy:  [0.66666667 0.66666667 0.66666667 1.         1.         0.5
+ 0.5        0.         0.         0.5       ]
+Mean Accuracy:  0.55
+Score Precision:  [0.33333333 0.33333333 0.33333333 1.         1.         0.25
+ 0.25       0.         0.         0.25      ]
+Mean Precision:  0.375
+Score Recall:  [0.5 0.5 0.5 1.  1.  0.5 0.5 0.  0.  0.5]
+Mean Recall:  0.5
+Score FScore:  [0.4        0.4        0.4        1.         1.         0.33333333
+ 0.33333333 0.         0.         0.33333333]
+Mean FScore:  0.42
+
+
+
+
+ExtraTrees 
+
+              precision    recall  f1-score   support
+
+         0.0       0.20      0.67      0.31         3
+         1.0       0.93      0.64      0.76        22
+
+    accuracy                           0.64        25
+   macro avg       0.57      0.65      0.53        25
+weighted avg       0.85      0.64      0.70        25
+
+ExtraTrees Confusion Matrix: 
+ [[ 2  8]
+ [ 1 14]]
+
+Accuracy score:  0.64  Precision 0.652  Recall 0.567  FScore 0.532
+
+ ExtraTrees K cross validation: 
+Score Accuracy:  [1.         1.         0.66666667 1.         0.66666667 0.
+ 1.         0.         0.5        0.5       ]
+Mean Accuracy:  0.633
+Score Precision:  [1.         1.         0.33333333 1.         0.33333333 0.
+ 1.         0.         0.25       0.25      ]
+Mean Precision:  0.517
+Score Recall:  [1.  1.  0.5 1.  0.5 0.  1.  0.  0.5 0.5]
+Mean Recall:  0.6
+Score FScore:  [1.         1.         0.4        1.         0.4        0.
+ 1.         0.         0.33333333 0.33333333]
+Mean FScore:  0.547
+
+
+
+
+MLPClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         0
+         1.0       1.00      0.60      0.75        25
+
+    accuracy                           0.60        25
+   macro avg       0.50      0.30      0.37        25
+weighted avg       1.00      0.60      0.75        25
+
+MLPClassifier Confusion Matrix: 
+ [[ 0 10]
+ [ 0 15]]
+
+Accuracy score:  0.6  Precision 0.3  Recall 0.5  FScore 0.375
+
+ MLPClassifier K cross validation: 
+Score Accuracy:  [0.66666667 0.66666667 0.66666667 0.66666667 0.66666667 0.5
+ 0.5        0.5        0.5        0.5       ]
+Mean Accuracy:  0.583
+Score Precision:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.25
+ 0.25       0.25       0.25       0.25      ]
+Mean Precision:  0.292
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5]
+Mean Recall:  0.5
+Score FScore:  [0.4        0.4        0.4        0.4        0.4        0.33333333
+ 0.33333333 0.33333333 0.33333333 0.33333333]
+Mean FScore:  0.367
+
+
+
+
+XGBClassifier 
+
+              precision    recall  f1-score   support
+
+           0       0.50      0.56      0.53         9
+           1       0.73      0.69      0.71        16
+
+    accuracy                           0.64        25
+   macro avg       0.62      0.62      0.62        25
+weighted avg       0.65      0.64      0.64        25
+
+XGBClassifier Confusion Matrix: 
+ [[ 5  5]
+ [ 4 11]]
+
+Accuracy score:  0.64  Precision 0.622  Recall 0.617  FScore 0.618
+
+ XGBClassifier K cross validation: 
+Score Accuracy:  [0.66666667 1.         0.66666667 1.         0.33333333 0.5
+ 0.         0.5        0.5        0.5       ]
+Mean Accuracy:  0.567
+Score Precision:  [0.75       1.         0.33333333 1.         0.25       0.25
+ 0.         0.25       0.25       0.25      ]
+Mean Precision:  0.433
+Score Recall:  [0.75 1.   0.5  1.   0.25 0.5  0.   0.5  0.5  0.5 ]
+Mean Recall:  0.55
+Score FScore:  [0.66666667 1.         0.4        1.         0.25       0.33333333
+ 0.         0.33333333 0.33333333 0.33333333]
+Mean FScore:  0.465
+
+
+
+
+DecisionTree 
+
+              precision    recall  f1-score   support
+
+         0.0       0.60      0.75      0.67         8
+         1.0       0.87      0.76      0.81        17
+
+    accuracy                           0.76        25
+   macro avg       0.73      0.76      0.74        25
+weighted avg       0.78      0.76      0.77        25
+
+DecisionTree Confusion Matrix: 
+ [[ 6  4]
+ [ 2 13]]
+
+Accuracy score:  0.76  Precision 0.757  Recall 0.733  FScore 0.74
+
+ DecisionTree K cross validation: 
+Score Accuracy:  [0.66666667 1.         0.66666667 1.         0.33333333 0.5
+ 0.5        0.5        0.5        0.5       ]
+Mean Accuracy:  0.617
+Score Precision:  [0.25       1.         0.33333333 1.         0.33333333 0.25
+ 0.         0.25       0.25       0.25      ]
+Mean Precision:  0.392
+Score Recall:  [0.25 1.   0.5  1.   0.25 0.5  0.   0.5  0.5  0.5 ]
+Mean Recall:  0.5
+Score FScore:  [0.4        1.         0.4        1.         0.25       0.33333333
+ 0.         0.33333333 0.33333333 0.33333333]
+Mean FScore:  0.438
+
+
+
+
+SVC 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         0
+         1.0       1.00      0.60      0.75        25
+
+    accuracy                           0.60        25
+   macro avg       0.50      0.30      0.37        25
+weighted avg       1.00      0.60      0.75        25
+
+SVC Confusion Matrix: 
+ [[ 0 10]
+ [ 0 15]]
+
+Accuracy score:  0.6  Precision 0.3  Recall 0.5  FScore 0.375
+
+ SVC K cross validation: 
+Score Accuracy:  [0.66666667 0.66666667 0.66666667 0.66666667 0.66666667 0.5
+ 0.5        0.5        0.5        0.5       ]
+Mean Accuracy:  0.583
+Score Precision:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.25
+ 0.25       0.25       0.25       0.25      ]
+Mean Precision:  0.292
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5]
+Mean Recall:  0.5
+Score FScore:  [0.4        0.4        0.4        0.4        0.4        0.33333333
+ 0.33333333 0.33333333 0.33333333 0.33333333]
+Mean FScore:  0.367
+
+
+
+
+Naive Bayes 
+
+              precision    recall  f1-score   support
+
+         0.0       0.30      0.30      0.30        10
+         1.0       0.53      0.53      0.53        15
+
+    accuracy                           0.44        25
+   macro avg       0.42      0.42      0.42        25
+weighted avg       0.44      0.44      0.44        25
+
+Naive Bayes Confusion Matrix: 
+ [[3 7]
+ [7 8]]
+
+Accuracy score:  0.44  Precision 0.417  Recall 0.417  FScore 0.417
+
+ Naive Bayes K cross validation: 
+Score Accuracy:  [0.66666667 0.66666667 0.33333333 0.66666667 0.66666667 0.5
+ 1.         0.5        0.         0.5       ]
+Mean Accuracy:  0.55
+Score Precision:  [0.33333333 0.75       0.25       0.75       0.33333333 0.25
+ 1.         0.25       0.         0.25      ]
+Mean Precision:  0.417
+Score Recall:  [0.5  0.75 0.25 0.75 0.5  0.5  1.   0.5  0.   0.5 ]
+Mean Recall:  0.525
+Score FScore:  [0.4        0.66666667 0.25       0.66666667 0.4        0.33333333
+ 1.         0.33333333 0.         0.33333333]
+Mean FScore:  0.438
+
+
+
+
+K-Nearest Neighbor 
+
+              precision    recall  f1-score   support
+
+         0.0       0.20      0.50      0.29         4
+         1.0       0.87      0.62      0.72        21
+
+    accuracy                           0.60        25
+   macro avg       0.53      0.56      0.50        25
+weighted avg       0.76      0.60      0.65        25
+
+K-Nearest Neighbor Confusion Matrix: 
+ [[ 2  8]
+ [ 2 13]]
+
+Accuracy score:  0.6  Precision 0.56  Recall 0.533  FScore 0.504
+
+ K-Nearest Neighbor K cross validation: 
+Score Accuracy:  [0.66666667 0.66666667 0.66666667 1.         0.33333333 0.5
+ 1.         0.5        1.         0.5       ]
+Mean Accuracy:  0.683
+Score Precision:  [0.33333333 0.33333333 0.33333333 1.         0.25       0.25
+ 1.         0.25       1.         0.25      ]
+Mean Precision:  0.5
+Score Recall:  [0.5  0.5  0.5  1.   0.25 0.5  1.   0.5  1.   0.5 ]
+Mean Recall:  0.625
+Score FScore:  [0.4        0.4        0.4        1.         0.25       0.33333333
+ 1.         0.33333333 1.         0.33333333]
+Mean FScore:  0.545
+
+
+
+
+CatBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.30      0.50      0.37         6
+         1.0       0.80      0.63      0.71        19
+
+    accuracy                           0.60        25
+   macro avg       0.55      0.57      0.54        25
+weighted avg       0.68      0.60      0.63        25
+
+CatBoostClassifier Confusion Matrix: 
+ [[ 3  7]
+ [ 3 12]]
+
+Accuracy score:  0.6  Precision 0.566  Recall 0.55  FScore 0.54
+
+ CatBoostClassifier K cross validation: 
+Score Accuracy:  [0.66666667 1.         0.66666667 1.         0.33333333 0.
+ 1.         0.5        1.         1.        ]
+Mean Accuracy:  0.717
+Score Precision:  [0.33333333 1.         0.33333333 1.         0.25       0.
+ 1.         0.25       1.         1.        ]
+Mean Precision:  0.617
+Score Recall:  [0.5  1.   0.5  1.   0.25 0.   1.   0.5  1.   1.  ]
+Mean Recall:  0.675
+Score FScore:  [0.4        1.         0.4        1.         0.25       0.
+ 1.         0.33333333 1.         1.        ]
+Mean FScore:  0.638
+
+
+
+
+QDA 
+
+              precision    recall  f1-score   support
+
+         0.0       0.30      0.30      0.30        10
+         1.0       0.53      0.53      0.53        15
+
+    accuracy                           0.44        25
+   macro avg       0.42      0.42      0.42        25
+weighted avg       0.44      0.44      0.44        25
+
+QDA Confusion Matrix: 
+ [[3 7]
+ [7 8]]
+
+Accuracy score:  0.44  Precision 0.417  Recall 0.417  FScore 0.417
+
+ QDA K cross validation: 
+Score Accuracy:  [0.33333333 0.66666667 0.33333333 1.         0.33333333 0.5
+ 0.         1.         0.         0.5       ]
+Mean Accuracy:  0.467
+Score Precision:  [0.25 0.75 0.25 1.   0.25 0.25 0.   1.   0.   0.25]
+Mean Precision:  0.4
+Score Recall:  [0.25 0.75 0.25 1.   0.25 0.5  0.   1.   0.   0.5 ]
+Mean Recall:  0.45
+Score FScore:  [0.25       0.66666667 0.25       1.         0.25       0.33333333
+ 0.         1.         0.         0.33333333]
+Mean FScore:  0.408
+
+
+
+
+AdaBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.50      0.50        10
+         1.0       0.67      0.67      0.67        15
+
+    accuracy                           0.60        25
+   macro avg       0.58      0.58      0.58        25
+weighted avg       0.60      0.60      0.60        25
+
+AdaBoostClassifier Confusion Matrix: 
+ [[ 5  5]
+ [ 5 10]]
+
+Accuracy score:  0.6  Precision 0.583  Recall 0.583  FScore 0.583
+
+ AdaBoostClassifier K cross validation: 
+Score Accuracy:  [0.33333333 1.         0.33333333 0.33333333 0.33333333 0.5
+ 0.5        0.5        0.         0.5       ]
+Mean Accuracy:  0.433
+Score Precision:  [0.25 1.   0.25 0.25 0.25 0.25 0.25 0.25 0.   1.  ]
+Mean Precision:  0.375
+Score Recall:  [0.25 1.   0.25 0.25 0.25 0.5  0.5  0.5  0.   0.5 ]
+Mean Recall:  0.4
+Score FScore:  [0.25       1.         0.25       0.25       0.25       0.33333333
+ 0.33333333 0.33333333 0.         0.33333333]
+Mean FScore:  0.333
+
+
+
+
+GradientBoostingClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         0
+         1.0       1.00      0.60      0.75        25
+
+    accuracy                           0.60        25
+   macro avg       0.50      0.30      0.37        25
+weighted avg       1.00      0.60      0.75        25
+
+GradientBoostingClassifier Confusion Matrix: 
+ [[ 0 10]
+ [ 0 15]]
+
+Accuracy score:  0.6  Precision 0.3  Recall 0.5  FScore 0.375
+
+ GradientBoostingClassifier K cross validation: 
+Score Accuracy:  [0.66666667 0.66666667 0.66666667 0.66666667 0.66666667 0.5
+ 0.5        0.5        0.5        0.5       ]
+Mean Accuracy:  0.583
+Score Precision:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.25
+ 0.25       0.25       0.25       0.25      ]
+Mean Precision:  0.292
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5]
+Mean Recall:  0.5
+Score FScore:  [0.4        0.4        0.4        0.4        0.4        0.33333333
+ 0.33333333 0.33333333 0.33333333 0.33333333]
+Mean FScore:  0.367
+
+
+
+                    Classifier  Accuracy  Precision  Recall  FScore  \
+0                RandomForrest      0.60      0.554   0.517   0.452   
+1                   ExtraTrees      0.64      0.652   0.567   0.532   
+2                MLPClassifier      0.60      0.300   0.500   0.375   
+3                XGBClassifier      0.64      0.622   0.617   0.618   
+4                 DecisionTree      0.76      0.757   0.733   0.740   
+5                          SVC      0.60      0.300   0.500   0.375   
+6                  Naive Bayes      0.44      0.417   0.417   0.417   
+7           K-Nearest Neighbor      0.60      0.560   0.533   0.504   
+8           CatBoostClassifier      0.60      0.566   0.550   0.540   
+9                          QDA      0.44      0.417   0.417   0.417   
+10          AdaBoostClassifier      0.60      0.583   0.583   0.583   
+11  GradientBoostingClassifier      0.60      0.300   0.500   0.375   
+
+    K-Cross Validation best result Accuracy  \
+0                                     1.000   
+1                                     1.000   
+2                                     0.667   
+3                                     1.000   
+4                                     1.000   
+5                                     0.667   
+6                                     1.000   
+7                                     1.000   
+8                                     1.000   
+9                                     1.000   
+10                                    1.000   
+11                                    0.667   
+
+    K-Cross Validation best result Precision  \
+0                                      1.000   
+1                                      1.000   
+2                                      0.333   
+3                                      1.000   
+4                                      1.000   
+5                                      0.333   
+6                                      1.000   
+7                                      1.000   
+8                                      1.000   
+9                                      1.000   
+10                                     1.000   
+11                                     0.333   
+
+    K-Cross Validation best result Recall  \
+0                                     1.0   
+1                                     1.0   
+2                                     0.5   
+3                                     1.0   
+4                                     1.0   
+5                                     0.5   
+6                                     1.0   
+7                                     1.0   
+8                                     1.0   
+9                                     1.0   
+10                                    1.0   
+11                                    0.5   
+
+    K-Cross Validation best result FScore  
+0                                     1.0  
+1                                     1.0  
+2                                     0.4  
+3                                     1.0  
+4                                     1.0  
+5                                     0.4  
+6                                     1.0  
+7                                     1.0  
+8                                     1.0  
+9                                     1.0  
+10                                    1.0  
+11                                    0.4  
+###########################################################################
+__________________________________________________
+NewMexON_OFF_varianza
+__________________________________________________
+
+RandomForrest 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         0
+         1.0       1.00      0.60      0.75        25
+
+    accuracy                           0.60        25
+   macro avg       0.50      0.30      0.37        25
+weighted avg       1.00      0.60      0.75        25
+
+RandomForrest Confusion Matrix: 
+ [[ 0 10]
+ [ 0 15]]
+
+Accuracy score:  0.6  Precision 0.3  Recall 0.5  FScore 0.375
+
+ RandomForrest K cross validation: 
+Score Accuracy:  [0.33333333 0.33333333 0.66666667 0.66666667 0.33333333 0.5
+ 0.5        1.         0.5        0.5       ]
+Mean Accuracy:  0.533
+Score Precision:  [0.25 0.25 0.75 0.75 0.25 0.25 0.25 1.   0.25 0.25]
+Mean Precision:  0.425
+Score Recall:  [0.25 0.25 0.75 0.75 0.25 0.5  0.5  1.   0.5  0.5 ]
+Mean Recall:  0.525
+Score FScore:  [0.25       0.25       0.66666667 0.66666667 0.25       0.33333333
+ 0.33333333 1.         0.33333333 0.33333333]
+Mean FScore:  0.442
+
+
+
+
+ExtraTrees 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         1
+         1.0       0.93      0.58      0.72        24
+
+    accuracy                           0.56        25
+   macro avg       0.47      0.29      0.36        25
+weighted avg       0.90      0.56      0.69        25
+
+ExtraTrees Confusion Matrix: 
+ [[ 0 10]
+ [ 1 14]]
+
+Accuracy score:  0.56  Precision 0.292  Recall 0.467  FScore 0.359
+
+ ExtraTrees K cross validation: 
+Score Accuracy:  [0.33333333 0.66666667 0.33333333 0.66666667 0.33333333 0.5
+ 1.         0.5        0.5        0.5       ]
+Mean Accuracy:  0.533
+Score Precision:  [0.25 0.75 0.25 0.75 0.25 0.25 1.   0.25 0.25 0.25]
+Mean Precision:  0.425
+Score Recall:  [0.25 0.75 0.25 0.75 0.25 0.5  1.   0.5  0.5  0.5 ]
+Mean Recall:  0.525
+Score FScore:  [0.25       0.66666667 0.25       0.66666667 0.25       0.33333333
+ 1.         0.33333333 0.33333333 0.33333333]
+Mean FScore:  0.442
+
+
+
+
+MLPClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         0
+         1.0       1.00      0.60      0.75        25
+
+    accuracy                           0.60        25
+   macro avg       0.50      0.30      0.37        25
+weighted avg       1.00      0.60      0.75        25
+
+MLPClassifier Confusion Matrix: 
+ [[ 0 10]
+ [ 0 15]]
+
+Accuracy score:  0.6  Precision 0.3  Recall 0.5  FScore 0.375
+
+ MLPClassifier K cross validation: 
+Score Accuracy:  [0.66666667 0.66666667 0.66666667 0.66666667 0.66666667 0.5
+ 0.5        0.5        0.5        0.5       ]
+Mean Accuracy:  0.583
+Score Precision:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.25
+ 0.25       0.25       0.25       0.25      ]
+Mean Precision:  0.292
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5]
+Mean Recall:  0.5
+Score FScore:  [0.4        0.4        0.4        0.4        0.4        0.33333333
+ 0.33333333 0.33333333 0.33333333 0.33333333]
+Mean FScore:  0.367
+
+
+
+
+XGBClassifier 
+
+              precision    recall  f1-score   support
+
+           0       0.40      1.00      0.57         4
+           1       1.00      0.71      0.83        21
+
+    accuracy                           0.76        25
+   macro avg       0.70      0.86      0.70        25
+weighted avg       0.90      0.76      0.79        25
+
+XGBClassifier Confusion Matrix: 
+ [[ 4  6]
+ [ 0 15]]
+
+Accuracy score:  0.76  Precision 0.857  Recall 0.7  FScore 0.702
+
+ XGBClassifier K cross validation: 
+Score Accuracy:  [0.33333333 0.66666667 0.33333333 0.66666667 0.66666667 0.
+ 0.5        0.5        0.5        0.5       ]
+Mean Accuracy:  0.467
+Score Precision:  [0.25       0.33333333 0.25       0.75       0.75       0.
+ 0.25       0.25       0.25       0.25      ]
+Mean Precision:  0.333
+Score Recall:  [0.25 0.5  0.25 0.75 0.75 0.   0.5  0.5  0.5  0.5 ]
+Mean Recall:  0.45
+Score FScore:  [0.25       0.4        0.25       0.66666667 0.66666667 0.
+ 0.33333333 0.33333333 0.33333333 0.33333333]
+Mean FScore:  0.357
+
+
+
+
+DecisionTree 
+
+              precision    recall  f1-score   support
+
+         0.0       0.20      0.25      0.22         8
+         1.0       0.60      0.53      0.56        17
+
+    accuracy                           0.44        25
+   macro avg       0.40      0.39      0.39        25
+weighted avg       0.47      0.44      0.45        25
+
+DecisionTree Confusion Matrix: 
+ [[2 8]
+ [6 9]]
+
+Accuracy score:  0.44  Precision 0.39  Recall 0.4  FScore 0.392
+
+ DecisionTree K cross validation: 
+Score Accuracy:  [0.66666667 0.66666667 0.33333333 0.66666667 0.33333333 0.
+ 0.5        1.         0.5        0.5       ]
+Mean Accuracy:  0.517
+Score Precision:  [0.25       0.33333333 0.25       0.75       0.         0.25
+ 0.25       0.25       0.25       0.25      ]
+Mean Precision:  0.283
+Score Recall:  [0.25 0.5  0.25 1.   0.   0.5  0.5  0.   0.5  0.5 ]
+Mean Recall:  0.4
+Score FScore:  [0.25       0.4        0.25       0.66666667 0.         0.
+ 0.33333333 0.33333333 0.33333333 0.33333333]
+Mean FScore:  0.29
+
+
+
+
+SVC 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         0
+         1.0       1.00      0.60      0.75        25
+
+    accuracy                           0.60        25
+   macro avg       0.50      0.30      0.37        25
+weighted avg       1.00      0.60      0.75        25
+
+SVC Confusion Matrix: 
+ [[ 0 10]
+ [ 0 15]]
+
+Accuracy score:  0.6  Precision 0.3  Recall 0.5  FScore 0.375
+
+ SVC K cross validation: 
+Score Accuracy:  [0.66666667 0.66666667 0.66666667 0.66666667 0.66666667 0.5
+ 0.5        0.5        0.5        0.5       ]
+Mean Accuracy:  0.583
+Score Precision:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.25
+ 0.25       0.25       0.25       0.25      ]
+Mean Precision:  0.292
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5]
+Mean Recall:  0.5
+Score FScore:  [0.4        0.4        0.4        0.4        0.4        0.33333333
+ 0.33333333 0.33333333 0.33333333 0.33333333]
+Mean FScore:  0.367
+
+
+
+
+Naive Bayes 
+
+              precision    recall  f1-score   support
+
+         0.0       0.30      0.60      0.40         5
+         1.0       0.87      0.65      0.74        20
+
+    accuracy                           0.64        25
+   macro avg       0.58      0.62      0.57        25
+weighted avg       0.75      0.64      0.67        25
+
+Naive Bayes Confusion Matrix: 
+ [[ 3  7]
+ [ 2 13]]
+
+Accuracy score:  0.64  Precision 0.625  Recall 0.583  FScore 0.571
+
+ Naive Bayes K cross validation: 
+Score Accuracy:  [0.33333333 0.66666667 0.33333333 0.66666667 0.         0.5
+ 1.         0.5        1.         1.        ]
+Mean Accuracy:  0.6
+Score Precision:  [0.25 0.75 0.25 0.75 0.   0.25 1.   0.25 1.   1.  ]
+Mean Precision:  0.55
+Score Recall:  [0.25 0.75 0.25 0.75 0.   0.5  1.   0.5  1.   1.  ]
+Mean Recall:  0.6
+Score FScore:  [0.25       0.66666667 0.25       0.66666667 0.         0.33333333
+ 1.         0.33333333 1.         1.        ]
+Mean FScore:  0.55
+
+
+
+
+K-Nearest Neighbor 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         1
+         1.0       0.93      0.58      0.72        24
+
+    accuracy                           0.56        25
+   macro avg       0.47      0.29      0.36        25
+weighted avg       0.90      0.56      0.69        25
+
+K-Nearest Neighbor Confusion Matrix: 
+ [[ 0 10]
+ [ 1 14]]
+
+Accuracy score:  0.56  Precision 0.292  Recall 0.467  FScore 0.359
+
+ K-Nearest Neighbor K cross validation: 
+Score Accuracy:  [0.66666667 0.66666667 0.66666667 0.66666667 0.66666667 0.5
+ 0.5        0.5        0.5        1.        ]
+Mean Accuracy:  0.633
+Score Precision:  [0.75       0.75       0.75       0.33333333 0.33333333 0.25
+ 0.25       0.25       0.25       1.        ]
+Mean Precision:  0.492
+Score Recall:  [0.75 0.75 0.75 0.5  0.5  0.5  0.5  0.5  0.5  1.  ]
+Mean Recall:  0.625
+Score FScore:  [0.66666667 0.66666667 0.66666667 0.4        0.4        0.33333333
+ 0.33333333 0.33333333 0.33333333 1.        ]
+Mean FScore:  0.513
+
+
+
+
+CatBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.10      1.00      0.18         1
+         1.0       1.00      0.62      0.77        24
+
+    accuracy                           0.64        25
+   macro avg       0.55      0.81      0.48        25
+weighted avg       0.96      0.64      0.75        25
+
+CatBoostClassifier Confusion Matrix: 
+ [[ 1  9]
+ [ 0 15]]
+
+Accuracy score:  0.64  Precision 0.812  Recall 0.55  FScore 0.476
+
+ CatBoostClassifier K cross validation: 
+Score Accuracy:  [0.33333333 0.66666667 0.33333333 0.66666667 0.33333333 0.5
+ 0.5        0.5        0.5        0.5       ]
+Mean Accuracy:  0.483
+Score Precision:  [0.25 0.75 0.25 0.75 0.25 0.25 0.25 0.25 0.25 0.25]
+Mean Precision:  0.35
+Score Recall:  [0.25 0.75 0.25 0.75 0.25 0.5  0.5  0.5  0.5  0.5 ]
+Mean Recall:  0.475
+Score FScore:  [0.25       0.66666667 0.25       0.66666667 0.25       0.33333333
+ 0.33333333 0.33333333 0.33333333 0.33333333]
+Mean FScore:  0.375
+
+
+
+
+QDA 
+
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.39      0.55        23
+         1.0       0.07      0.50      0.12         2
+
+    accuracy                           0.40        25
+   macro avg       0.48      0.45      0.33        25
+weighted avg       0.83      0.40      0.51        25
+
+QDA Confusion Matrix: 
+ [[ 9  1]
+ [14  1]]
+
+Accuracy score:  0.4  Precision 0.446  Recall 0.483  FScore 0.332
+
+ QDA K cross validation: 
+Score Accuracy:  [0.33333333 0.66666667 0.33333333 0.66666667 0.66666667 0.5
+ 1.         0.5        1.         1.        ]
+Mean Accuracy:  0.667
+Score Precision:  [0.16666667 0.33333333 0.25       0.75       0.75       0.25
+ 1.         0.25       1.         1.        ]
+Mean Precision:  0.575
+Score Recall:  [0.5  0.5  0.25 0.75 0.75 0.5  1.   0.5  1.   1.  ]
+Mean Recall:  0.675
+Score FScore:  [0.25       0.4        0.25       0.66666667 0.66666667 0.33333333
+ 1.         0.33333333 1.         1.        ]
+Mean FScore:  0.59
+
+
+
+
+AdaBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.10      0.33      0.15         3
+         1.0       0.87      0.59      0.70        22
+
+    accuracy                           0.56        25
+   macro avg       0.48      0.46      0.43        25
+weighted avg       0.77      0.56      0.64        25
+
+AdaBoostClassifier Confusion Matrix: 
+ [[ 1  9]
+ [ 2 13]]
+
+Accuracy score:  0.56  Precision 0.462  Recall 0.483  FScore 0.428
+
+ AdaBoostClassifier K cross validation: 
+Score Accuracy:  [0.33333333 0.66666667 0.33333333 0.66666667 0.66666667 0.
+ 0.5        1.         0.5        0.5       ]
+Mean Accuracy:  0.517
+Score Precision:  [0.33333333 0.75       0.25       0.75       0.33333333 0.
+ 0.25       0.25       0.25       0.25      ]
+Mean Precision:  0.342
+Score Recall:  [0.25 0.75 0.5  0.75 0.5  0.   0.5  1.   0.5  0.5 ]
+Mean Recall:  0.525
+Score FScore:  [0.4        0.66666667 0.4        0.66666667 0.4        0.
+ 0.33333333 1.         0.33333333 0.33333333]
+Mean FScore:  0.453
+
+
+
+
+GradientBoostingClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         0
+         1.0       1.00      0.60      0.75        25
+
+    accuracy                           0.60        25
+   macro avg       0.50      0.30      0.37        25
+weighted avg       1.00      0.60      0.75        25
+
+GradientBoostingClassifier Confusion Matrix: 
+ [[ 0 10]
+ [ 0 15]]
+
+Accuracy score:  0.6  Precision 0.3  Recall 0.5  FScore 0.375
+
+ GradientBoostingClassifier K cross validation: 
+Score Accuracy:  [0.66666667 0.66666667 0.66666667 0.66666667 0.66666667 0.5
+ 0.5        0.5        0.5        0.        ]
+Mean Accuracy:  0.533
+Score Precision:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.25
+ 0.25       0.25       0.25       0.        ]
+Mean Precision:  0.267
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0. ]
+Mean Recall:  0.45
+Score FScore:  [0.4        0.4        0.4        0.4        0.4        0.33333333
+ 0.33333333 0.33333333 0.33333333 0.        ]
+Mean FScore:  0.333
+
+
+
+                    Classifier  Accuracy  Precision  Recall  FScore  \
+0                RandomForrest      0.60      0.300   0.500   0.375   
+1                   ExtraTrees      0.56      0.292   0.467   0.359   
+2                MLPClassifier      0.60      0.300   0.500   0.375   
+3                XGBClassifier      0.76      0.857   0.700   0.702   
+4                 DecisionTree      0.44      0.390   0.400   0.392   
+5                          SVC      0.60      0.300   0.500   0.375   
+6                  Naive Bayes      0.64      0.625   0.583   0.571   
+7           K-Nearest Neighbor      0.56      0.292   0.467   0.359   
+8           CatBoostClassifier      0.64      0.812   0.550   0.476   
+9                          QDA      0.40      0.446   0.483   0.332   
+10          AdaBoostClassifier      0.56      0.462   0.483   0.428   
+11  GradientBoostingClassifier      0.60      0.300   0.500   0.375   
+
+    K-Cross Validation best result Accuracy  \
+0                                     1.000   
+1                                     1.000   
+2                                     0.667   
+3                                     0.667   
+4                                     1.000   
+5                                     0.667   
+6                                     1.000   
+7                                     1.000   
+8                                     0.667   
+9                                     1.000   
+10                                    1.000   
+11                                    0.667   
+
+    K-Cross Validation best result Precision  \
+0                                      1.000   
+1                                      1.000   
+2                                      0.333   
+3                                      0.750   
+4                                      0.750   
+5                                      0.333   
+6                                      1.000   
+7                                      1.000   
+8                                      0.750   
+9                                      1.000   
+10                                     0.750   
+11                                     0.333   
+
+    K-Cross Validation best result Recall  \
+0                                    1.00   
+1                                    1.00   
+2                                    0.50   
+3                                    0.75   
+4                                    1.00   
+5                                    0.50   
+6                                    1.00   
+7                                    1.00   
+8                                    0.75   
+9                                    1.00   
+10                                   1.00   
+11                                   0.50   
+
+    K-Cross Validation best result FScore  
+0                                   1.000  
+1                                   1.000  
+2                                   0.400  
+3                                   0.667  
+4                                   0.667  
+5                                   0.400  
+6                                   1.000  
+7                                   1.000  
+8                                   0.667  
+9                                   1.000  
+10                                  1.000  
+11                                  0.400  
+###########################################################################
+__________________________________________________
+NewMexON_OFF_max_min
+__________________________________________________
+
+RandomForrest 
+
+              precision    recall  f1-score   support
+
+         0.0       0.20      0.67      0.31         3
+         1.0       0.93      0.64      0.76        22
+
+    accuracy                           0.64        25
+   macro avg       0.57      0.65      0.53        25
+weighted avg       0.85      0.64      0.70        25
+
+RandomForrest Confusion Matrix: 
+ [[ 2  8]
+ [ 1 14]]
+
+Accuracy score:  0.64  Precision 0.652  Recall 0.567  FScore 0.532
+
+ RandomForrest K cross validation: 
+Score Accuracy:  [1.         1.         0.66666667 0.66666667 1.         0.5
+ 0.5        0.         0.         0.5       ]
+Mean Accuracy:  0.583
+Score Precision:  [1.         1.         0.33333333 0.33333333 1.         0.25
+ 0.25       0.         0.         0.25      ]
+Mean Precision:  0.442
+Score Recall:  [1.  1.  0.5 0.5 1.  0.5 0.5 0.  0.  0.5]
+Mean Recall:  0.55
+Score FScore:  [1.         1.         0.4        0.4        1.         0.33333333
+ 0.33333333 0.         0.         0.33333333]
+Mean FScore:  0.48
+
+
+
+
+ExtraTrees 
+
+              precision    recall  f1-score   support
+
+         0.0       0.20      0.67      0.31         3
+         1.0       0.93      0.64      0.76        22
+
+    accuracy                           0.64        25
+   macro avg       0.57      0.65      0.53        25
+weighted avg       0.85      0.64      0.70        25
+
+ExtraTrees Confusion Matrix: 
+ [[ 2  8]
+ [ 1 14]]
+
+Accuracy score:  0.64  Precision 0.652  Recall 0.567  FScore 0.532
+
+ ExtraTrees K cross validation: 
+Score Accuracy:  [1.         1.         0.66666667 0.66666667 0.66666667 0.5
+ 0.5        0.         0.5        1.        ]
+Mean Accuracy:  0.65
+Score Precision:  [1.         1.         0.33333333 0.75       0.33333333 0.25
+ 0.25       0.         0.25       1.        ]
+Mean Precision:  0.517
+Score Recall:  [1.   1.   0.5  0.75 0.5  0.5  0.5  0.   0.5  1.  ]
+Mean Recall:  0.625
+Score FScore:  [1.         1.         0.4        0.66666667 0.4        0.33333333
+ 0.33333333 0.         0.33333333 1.        ]
+Mean FScore:  0.547
+
+
+
+
+MLPClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       1.00      0.40      0.57        25
+         1.0       0.00      0.00      0.00         0
+
+    accuracy                           0.40        25
+   macro avg       0.50      0.20      0.29        25
+weighted avg       1.00      0.40      0.57        25
+
+MLPClassifier Confusion Matrix: 
+ [[10  0]
+ [15  0]]
+
+Accuracy score:  0.4  Precision 0.2  Recall 0.5  FScore 0.286
+
+ MLPClassifier K cross validation: 
+Score Accuracy:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.5
+ 0.5        0.5        0.5        0.5       ]
+Mean Accuracy:  0.417
+Score Precision:  [0.16666667 0.16666667 0.16666667 0.16666667 0.16666667 0.25
+ 0.25       0.25       0.25       0.25      ]
+Mean Precision:  0.208
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5]
+Mean Recall:  0.5
+Score FScore:  [0.25       0.25       0.25       0.25       0.25       0.33333333
+ 0.33333333 0.33333333 0.33333333 0.33333333]
+Mean FScore:  0.292
+
+
+
+
+XGBClassifier 
+
+              precision    recall  f1-score   support
+
+           0       0.60      0.67      0.63         9
+           1       0.80      0.75      0.77        16
+
+    accuracy                           0.72        25
+   macro avg       0.70      0.71      0.70        25
+weighted avg       0.73      0.72      0.72        25
+
+XGBClassifier Confusion Matrix: 
+ [[ 6  4]
+ [ 3 12]]
+
+Accuracy score:  0.72  Precision 0.708  Recall 0.7  FScore 0.703
+
+ XGBClassifier K cross validation: 
+Score Accuracy:  [0.66666667 1.         0.66666667 1.         0.66666667 0.5
+ 0.         0.5        0.5        1.        ]
+Mean Accuracy:  0.65
+Score Precision:  [0.75       1.         0.33333333 1.         0.33333333 0.25
+ 0.         0.25       0.25       1.        ]
+Mean Precision:  0.517
+Score Recall:  [0.75 1.   0.5  1.   0.5  0.5  0.   0.5  0.5  1.  ]
+Mean Recall:  0.625
+Score FScore:  [0.66666667 1.         0.4        1.         0.4        0.33333333
+ 0.         0.33333333 0.33333333 1.        ]
+Mean FScore:  0.547
+
+
+
+
+DecisionTree 
+
+              precision    recall  f1-score   support
+
+         0.0       0.20      0.50      0.29         4
+         1.0       0.87      0.62      0.72        21
+
+    accuracy                           0.60        25
+   macro avg       0.53      0.56      0.50        25
+weighted avg       0.76      0.60      0.65        25
+
+DecisionTree Confusion Matrix: 
+ [[ 2  8]
+ [ 2 13]]
+
+Accuracy score:  0.6  Precision 0.56  Recall 0.533  FScore 0.504
+
+ DecisionTree K cross validation: 
+Score Accuracy:  [1.         1.         0.66666667 1.         0.66666667 0.5
+ 0.5        0.5        0.         1.        ]
+Mean Accuracy:  0.683
+Score Precision:  [1.         1.         0.33333333 1.         0.33333333 0.25
+ 0.25       0.25       0.         1.        ]
+Mean Precision:  0.542
+Score Recall:  [1.  1.  0.5 1.  0.5 0.5 0.5 0.5 0.  1. ]
+Mean Recall:  0.65
+Score FScore:  [1.         1.         0.4        1.         0.4        0.33333333
+ 1.         0.33333333 0.         1.        ]
+Mean FScore:  0.647
+
+
+
+
+SVC 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         0
+         1.0       1.00      0.60      0.75        25
+
+    accuracy                           0.60        25
+   macro avg       0.50      0.30      0.37        25
+weighted avg       1.00      0.60      0.75        25
+
+SVC Confusion Matrix: 
+ [[ 0 10]
+ [ 0 15]]
+
+Accuracy score:  0.6  Precision 0.3  Recall 0.5  FScore 0.375
+
+ SVC K cross validation: 
+Score Accuracy:  [0.66666667 0.66666667 0.66666667 0.66666667 0.66666667 0.5
+ 0.5        0.5        0.5        0.5       ]
+Mean Accuracy:  0.583
+Score Precision:  [0.33333333 0.33333333 0.33333333 0.33333333 0.33333333 0.25
+ 0.25       0.25       0.25       0.25      ]
+Mean Precision:  0.292
+Score Recall:  [0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5]
+Mean Recall:  0.5
+Score FScore:  [0.4        0.4        0.4        0.4        0.4        0.33333333
+ 0.33333333 0.33333333 0.33333333 0.33333333]
+Mean FScore:  0.367
+
+
+
+
+Naive Bayes 
+
+              precision    recall  f1-score   support
+
+         0.0       0.30      0.27      0.29        11
+         1.0       0.47      0.50      0.48        14
+
+    accuracy                           0.40        25
+   macro avg       0.38      0.39      0.38        25
+weighted avg       0.39      0.40      0.40        25
+
+Naive Bayes Confusion Matrix: 
+ [[3 7]
+ [8 7]]
+
+Accuracy score:  0.4  Precision 0.386  Recall 0.383  FScore 0.384
+
+ Naive Bayes K cross validation: 
+Score Accuracy:  [1.         0.66666667 0.33333333 0.66666667 0.66666667 0.5
+ 1.         0.5        0.         0.5       ]
+Mean Accuracy:  0.583
+Score Precision:  [1.         0.75       0.25       0.75       0.33333333 0.25
+ 1.         0.25       0.         0.25      ]
+Mean Precision:  0.483
+Score Recall:  [1.   0.75 0.25 0.75 0.5  0.5  1.   0.5  0.   0.5 ]
+Mean Recall:  0.575
+Score FScore:  [1.         0.66666667 0.25       0.66666667 0.4        0.33333333
+ 1.         0.33333333 0.         0.33333333]
+Mean FScore:  0.498
+
+
+
+
+K-Nearest Neighbor 
+
+              precision    recall  f1-score   support
+
+         0.0       0.20      0.50      0.29         4
+         1.0       0.87      0.62      0.72        21
+
+    accuracy                           0.60        25
+   macro avg       0.53      0.56      0.50        25
+weighted avg       0.76      0.60      0.65        25
+
+K-Nearest Neighbor Confusion Matrix: 
+ [[ 2  8]
+ [ 2 13]]
+
+Accuracy score:  0.6  Precision 0.56  Recall 0.533  FScore 0.504
+
+ K-Nearest Neighbor K cross validation: 
+Score Accuracy:  [0.66666667 0.66666667 0.66666667 1.         0.33333333 0.5
+ 1.         0.5        1.         0.5       ]
+Mean Accuracy:  0.683
+Score Precision:  [0.33333333 0.33333333 0.33333333 1.         0.25       0.25
+ 1.         0.25       1.         0.25      ]
+Mean Precision:  0.5
+Score Recall:  [0.5  0.5  0.5  1.   0.25 0.5  1.   0.5  1.   0.5 ]
+Mean Recall:  0.625
+Score FScore:  [0.4        0.4        0.4        1.         0.25       0.33333333
+ 1.         0.33333333 1.         0.33333333]
+Mean FScore:  0.545
+
+
+
+
+CatBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.30      0.50      0.37         6
+         1.0       0.80      0.63      0.71        19
+
+    accuracy                           0.60        25
+   macro avg       0.55      0.57      0.54        25
+weighted avg       0.68      0.60      0.63        25
+
+CatBoostClassifier Confusion Matrix: 
+ [[ 3  7]
+ [ 3 12]]
+
+Accuracy score:  0.6  Precision 0.566  Recall 0.55  FScore 0.54
+
+ CatBoostClassifier K cross validation: 
+Score Accuracy:  [0.66666667 1.         0.66666667 1.         0.33333333 0.5
+ 1.         0.         0.5        1.        ]
+Mean Accuracy:  0.667
+Score Precision:  [0.33333333 1.         0.33333333 1.         0.25       0.25
+ 1.         0.         0.25       1.        ]
+Mean Precision:  0.542
+Score Recall:  [0.5  1.   0.5  1.   0.25 0.5  1.   0.   0.5  1.  ]
+Mean Recall:  0.625
+Score FScore:  [0.4        1.         0.4        1.         0.25       0.33333333
+ 1.         0.         0.33333333 1.        ]
+Mean FScore:  0.572
+
+
+
+
+QDA 
+
+              precision    recall  f1-score   support
+
+         0.0       0.40      0.67      0.50         6
+         1.0       0.87      0.68      0.76        19
+
+    accuracy                           0.68        25
+   macro avg       0.63      0.68      0.63        25
+weighted avg       0.75      0.68      0.70        25
+
+QDA Confusion Matrix: 
+ [[ 4  6]
+ [ 2 13]]
+
+Accuracy score:  0.68  Precision 0.675  Recall 0.633  FScore 0.632
+
+ QDA K cross validation: 
+Score Accuracy:  [0.66666667 0.33333333 0.66666667 0.33333333 0.         0.
+ 0.5        0.5        0.         0.        ]
+Mean Accuracy:  0.3
+Score Precision:  [0.33333333 0.16666667 0.75       0.16666667 0.         0.
+ 0.25       0.25       0.         0.        ]
+Mean Precision:  0.192
+Score Recall:  [0.5  0.5  0.75 0.5  0.   0.   0.5  0.5  0.   0.  ]
+Mean Recall:  0.325
+Score FScore:  [0.4        0.25       0.66666667 0.25       0.         0.
+ 0.33333333 0.33333333 0.         0.        ]
+Mean FScore:  0.223
+
+
+
+
+AdaBoostClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.50      0.56      0.53         9
+         1.0       0.73      0.69      0.71        16
+
+    accuracy                           0.64        25
+   macro avg       0.62      0.62      0.62        25
+weighted avg       0.65      0.64      0.64        25
+
+AdaBoostClassifier Confusion Matrix: 
+ [[ 5  5]
+ [ 4 11]]
+
+Accuracy score:  0.64  Precision 0.622  Recall 0.617  FScore 0.618
+
+ AdaBoostClassifier K cross validation: 
+Score Accuracy:  [0.66666667 1.         0.66666667 0.66666667 0.66666667 0.5
+ 1.         0.5        0.         1.        ]
+Mean Accuracy:  0.667
+Score Precision:  [0.33333333 1.         0.33333333 1.         0.33333333 0.25
+ 1.         0.25       0.         1.        ]
+Mean Precision:  0.55
+Score Recall:  [0.5 1.  0.5 1.  0.5 0.5 0.5 0.5 0.  1. ]
+Mean Recall:  0.6
+Score FScore:  [0.4        1.         0.4        1.         0.4        0.33333333
+ 0.33333333 0.33333333 0.         1.        ]
+Mean FScore:  0.52
+
+
+
+
+GradientBoostingClassifier 
+
+              precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00         0
+         1.0       1.00      0.60      0.75        25
+
+    accuracy                           0.60        25
+   macro avg       0.50      0.30      0.37        25
+weighted avg       1.00      0.60      0.75        25
+
+GradientBoostingClassifier Confusion Matrix: 
+ [[ 0 10]
+ [ 0 15]]
+
+Accuracy score:  0.6  Precision 0.3  Recall 0.5  FScore 0.375
+
+ GradientBoostingClassifier K cross validation: 
+Score Accuracy:  [0.66666667 1.         0.66666667 0.66666667 0.66666667 0.5
+ 0.5        0.5        0.5        0.5       ]
+Mean Accuracy:  0.617
+Score Precision:  [0.33333333 1.         0.33333333 0.33333333 0.33333333 0.25
+ 0.25       0.25       0.25       0.25      ]
+Mean Precision:  0.358
+Score Recall:  [0.5 1.  0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5]
+Mean Recall:  0.55
+Score FScore:  [0.4        1.         0.4        0.4        0.4        0.33333333
+ 0.33333333 0.33333333 0.33333333 0.33333333]
+Mean FScore:  0.427
+
+
+
+                    Classifier  Accuracy  Precision  Recall  FScore  \
+0                RandomForrest      0.64      0.652   0.567   0.532   
+1                   ExtraTrees      0.64      0.652   0.567   0.532   
+2                MLPClassifier      0.40      0.200   0.500   0.286   
+3                XGBClassifier      0.72      0.708   0.700   0.703   
+4                 DecisionTree      0.60      0.560   0.533   0.504   
+5                          SVC      0.60      0.300   0.500   0.375   
+6                  Naive Bayes      0.40      0.386   0.383   0.384   
+7           K-Nearest Neighbor      0.60      0.560   0.533   0.504   
+8           CatBoostClassifier      0.60      0.566   0.550   0.540   
+9                          QDA      0.68      0.675   0.633   0.632   
+10          AdaBoostClassifier      0.64      0.622   0.617   0.618   
+11  GradientBoostingClassifier      0.60      0.300   0.500   0.375   
+
+   
+###########################################################################
+
+Process finished with exit code 0
