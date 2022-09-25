@@ -1,6 +1,7 @@
 # EEG_Parkinson
 Applicazione di algoritmi di Machine Learning per la diagnosi del Parkinson tramite i tracciati EEG
-
+# PROCESSO DI ANALISI
+![0](https://github.com/R-luigi99/EEG_Parkinson/blob/master/Tabelle/Screenshot%20(32).png)
 
 # RISULTATI OTTENUTI
 
